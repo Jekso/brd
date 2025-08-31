@@ -241,27 +241,27 @@
       {
         "name": "مخطط حالة استخدام لتسجيل الدخول والتسجيل",
         "description": "Use Case Diagram showing Actor 'User' interacting with two use cases: 'Register New User' and 'Login'.",
-        "url": "/static/c5077caa54884ed58842e8cb3a18c332.svg"
+        "url": "https://brd-qi0f.onrender.com/static/c5077caa54884ed58842e8cb3a18c332.svg"
       },
       {
         "name": "مخطط حالة استخدام لإدارة الطلبات",
         "description": "Use Case Diagram showing Actor 'Admin' managing 'Order Management' and 'Order Tracking'. Actor 'Delivery Driver' participates in 'Accept Order' and 'Confirm Delivery'.",
-        "url": "/static/26699f6c730b47668d1fdf89a7e756c4.svg"
+        "url": "https://brd-qi0f.onrender.com/static/26699f6c730b47668d1fdf89a7e756c4.svg"
       },
       {
         "name": "مخطط حالة استخدام لعملية الدفع",
         "description": "Use Case Diagram showing Actor 'User' initiating 'Make Payment' and Actor 'Payment Gateway' processing 'Transaction' with confirmation status.",
-        "url": "/static/3168ba6f8ab548ad92ccbe6441b10357.svg"
+        "url": "https://brd-qi0f.onrender.com/static/3168ba6f8ab548ad92ccbe6441b10357.svg"
       },
       {
         "name": "مخطط حالة استخدام للإشعارات",
         "description": "Use Case Diagram showing Actor 'Notification Service' pushing messages such as 'Order Confirmation', 'Status Updates', and 'Promotions' to Actor 'User'.",
-        "url": "/static/4638c3e2f6d548fe97d37f240be6f8ee.svg"
+        "url": "https://brd-qi0f.onrender.com/static/4638c3e2f6d548fe97d37f240be6f8ee.svg"
       },
       {
         "name": "مخطط حالة استخدام لتقييم المطاعم",
         "description": "Use Case Diagram showing Actor 'User' performing 'Rate Restaurant' and 'Write Review'. Actor 'Admin' monitors reviews through 'Review Moderation'.",
-        "url": "/static/eae01ed9f46b4632b04f260ba45d6452.svg"
+        "url": "https://brd-qi0f.onrender.com/static/eae01ed9f46b4632b04f260ba45d6452.svg"
       }
     ]
   },
@@ -275,7 +275,7 @@
       {
         "name": "مخطط المكونات للنظام",
         "description": "Component Diagram detailing the internal structures of the food ordering system including main components such as Frontend, Backend, and REST API integrators. The Backend interfaces with External Payment Gateway, Localization Service, and Notification Service for seamless operations.",
-        "url": "/static/8a9a1eef306247d7a4e42f0c072e9261.svg"
+        "url": "https://brd-qi0f.onrender.com/static/8a9a1eef306247d7a4e42f0c072e9261.svg"
       },
       {
         "name": "مخطط النشر للبنية التحتية",
@@ -293,7 +293,7 @@
       {
         "name": "تدفق تسجيل دخول المستخدم",
         "description": "Flow Chart for User Authentication: Start → Input Credentials (Username and Password) → Submit → Backend API Validates against User Database → Success leads to User Dashboard → Failure returns to Login Screen with Error Notification.",
-        "url": "/static/ceb78e7c862f416e828b4bb5b3916130.svg"
+        "url": "https://brd-qi0f.onrender.com/static/ceb78e7c862f416e828b4bb5b3916130.svg"
       },
       {
         "name": "تدفق تصفح القائمة",
@@ -303,12 +303,12 @@
       {
         "name": "تدفق عملية السلة والدفع",
         "description": "Flow Chart for Cart and Checkout Process: User Adds Items to Cart → View Cart → Modify Quantities → Checkout → Enter Address Details → Select Payment Method → Enter Coupon (optional) → Finalize Order Summary → Submit Order.",
-        "url": "/static/fe1f69edf278465aabed0ccacea9d5f0.svg"
+        "url": "https://brd-qi0f.onrender.com/static/fe1f69edf278465aabed0ccacea9d5f0.svg"
       },
       {
         "name": "إدارة الطلبات",
         "description": "Flow Chart for Order Management: Start → List User Orders → Select Order for Details → Show Order Status and tracking → Option to Contact Delivery → End with Option to Rate Orders.",
-        "url": "/static/0f9f1bbeeddd46e5a37152945de032a4.svg"
+        "url": "https://brd-qi0f.onrender.com/static/0f9f1bbeeddd46e5a37152945de032a4.svg"
       },
       {
         "name": "تدفق الإشعارات اللحظية",
@@ -318,7 +318,7 @@
       {
         "name": "تدفق الاستكشاف والتصنيف",
         "description": "Flow Chart for Restaurant and Product Exploration: Start → Fetch Restaurants from Database → Apply Filters (Category, Fast Delivery, Rating) → Display Restaurant List → User Selects Restaurant to View Menu.",
-        "url": "/static/d7386e91348941439f6fa6605406a7c3.svg"
+        "url": "https://brd-qi0f.onrender.com/static/d7386e91348941439f6fa6605406a7c3.svg"
       },
       {
         "name": "البنية التحتية للتوطين ودعم اللغة",
@@ -328,17 +328,17 @@
       {
         "name": "هيكلية نظام بيانات الموقع",
         "description": "System Architecture Diagram featuring User Device interacting with GPS Module. Display Backend Server processing GPS Data for Restaurant Detection. Alternative: Manual City Input by User feeds into the System for Location Services.",
-        "url": "/static/f2cb963389974e60873f2ecd2137fc7a.svg"
+        "url": "https://brd-qi0f.onrender.com/static/f2cb963389974e60873f2ecd2137fc7a.svg"
       },
       {
         "name": "تدفق إدارة حساب المستخدم",
         "description": "Flow Chart for User Account Management: Start → User Accesses Profile → Edit Information or Change Address or Update Password → Submit Changes → Backend Updates Database → Return Confirmation to User.",
-        "url": "/static/bfa8497c507d4c24996f3ac5d8859730.svg"
+        "url": "https://brd-qi0f.onrender.com/static/bfa8497c507d4c24996f3ac5d8859730.svg"
       },
       {
         "name": "هيكلية خدمة التوصيل",
         "description": "System Architecture Diagram showing Integration between User App and Delivery Personnel App through API. Backend manages Orders and Delivery Tracking via GPS. Show Interactive Component allowing Drivers to Contact Users.",
-        "url": "/static/03182a635ce140d08d8d0c16728e35f7.svg"
+        "url": "https://brd-qi0f.onrender.com/static/03182a635ce140d08d8d0c16728e35f7.svg"
       }
     ]
   },
@@ -364,7 +364,7 @@
           {
             "name": "مخطط النشاط لتسجيل الدخول",
             "description": "Activity Diagram showing the workflow: User accesses Login Page → enters credentials → system validates → grants access → user can request password recovery.",
-            "url": "/static/ba72c0996bde4c51898cbfcc42890080.svg"
+            "url": "https://brd-qi0f.onrender.com/static/ba72c0996bde4c51898cbfcc42890080.svg"
           }
         ]
       },
@@ -421,7 +421,7 @@
           {
             "name": "مخطط تسلسل عملية الدفع",
             "description": "Sequence Diagram showing User adding items to Cart → modifies quantities → views updated pricing → proceeds to Checkout → selects payment method → completes order.",
-            "url": "/static/3bc49ebb71704662ba3c99319072c72b.svg"
+            "url": "https://brd-qi0f.onrender.com/static/3bc49ebb71704662ba3c99319072c72b.svg"
           }
         ]
       },
@@ -440,7 +440,7 @@
           {
             "name": "مخطط النشاط لإدارة الطلبات",
             "description": "Activity Diagram showing Order Creation → system updating Order Status → Users tracking via GPS → notification to Users upon status change.",
-            "url": "/static/22a0dc31dcb6449a93f425a200a65d9a.svg"
+            "url": "https://brd-qi0f.onrender.com/static/22a0dc31dcb6449a93f425a200a65d9a.svg"
           }
         ]
       },
@@ -459,7 +459,7 @@
           {
             "name": "مخطط النشاط لإدارة حساب المستخدم",
             "description": "Activity Diagram showing User accessing Profile Page → modifying personal details → system validating and saving → updates reflected in database.",
-            "url": "/static/69a4577e70ae447eb8e717891e758e4b.svg"
+            "url": "https://brd-qi0f.onrender.com/static/69a4577e70ae447eb8e717891e758e4b.svg"
           }
         ]
       },
@@ -478,7 +478,7 @@
           {
             "name": "مخطط النشاط للصفحة الرئيسية والمفضلات",
             "description": "Activity Diagram showing Home Page displaying ongoing orders, nearest restaurants → User viewing Trending Products → adding favorites.",
-            "url": "/static/550b6bcea613454986bf8df90e146a74.svg"
+            "url": "https://brd-qi0f.onrender.com/static/550b6bcea613454986bf8df90e146a74.svg"
           }
         ]
       },
@@ -516,7 +516,7 @@
           {
             "name": "مخطط الصف لخدمات الموقع الجغرافي",
             "description": "Class Diagram showing LocationService class with methods (DetectLocation, ManualCitySelection) and interaction with RestaurantList.",
-            "url": "/static/958101df3c4c49c38cd4ca3170881356.svg"
+            "url": "https://brd-qi0f.onrender.com/static/958101df3c4c49c38cd4ca3170881356.svg"
           }
         ]
       },
@@ -611,14 +611,14 @@
           {
             "name": "تصميم صفحة القوائم",
             "description": "UI design for Menu Page: professional ui, modern design with category sections, product listings with images and descriptions, filter and sort options for enhanced user experience.",
-            "url": "/static/d2e0716014ac453ab72fd80679c4949f.png"
+            "url": "https://brd-qi0f.onrender.com/static/d2e0716014ac453ab72fd80679c4949f.png"
           }
         ],
         "diagrams": [
           {
             "name": "مخطط نشاط تصفح المنتجات",
             "description": "Activity Diagram showing workflow: User selects menu category → filter options appear → user selects filters → products displayed accordingly → user views product details.",
-            "url": "/static/908fdb8b5b2f4e0db976b2198888cc24.svg"
+            "url": "https://brd-qi0f.onrender.com/static/908fdb8b5b2f4e0db976b2198888cc24.svg"
           }
         ]
       },
@@ -663,14 +663,14 @@
           {
             "name": "تصميم شاشة إدارة الحساب",
             "description": "Dashboard design for Account Management: includes sections for personal information, address updates, and password changes with a material design for a seamless ux experience.",
-            "url": "/static/39239e09d6ee437e9a293dceb2b17808.png"
+            "url": "https://brd-qi0f.onrender.com/static/39239e09d6ee437e9a293dceb2b17808.png"
           }
         ],
         "diagrams": [
           {
             "name": "مخطط نشاط إدارة الحساب",
             "description": "Activity Diagram showing steps: User logs into account → views current information → selects edit option → updates data → system validates and confirms changes.",
-            "url": "/static/fae7e573d1cb483f8ff9ce7c06936b11.svg"
+            "url": "https://brd-qi0f.onrender.com/static/fae7e573d1cb483f8ff9ce7c06936b11.svg"
           }
         ]
       }

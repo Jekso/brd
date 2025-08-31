@@ -25,3 +25,13 @@ async def full_generate(files: List[UploadFile] = File(...)):
     - Always returns the static JSON from brd_srs_updated.json.
     """
     return BRD_SRS_JSON
+
+@app.get("/srs")
+async def get_srs():
+    """
+    Dummy endpoint:
+    - Accepts multiple files (txt/docx).
+    - Ignores them.
+    - Always returns the static JSON from brd_srs_updated.json.
+    """
+    return BRD_SRS_JSON
