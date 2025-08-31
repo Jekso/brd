@@ -7,53 +7,53 @@
     "terms": [
       {
         "id": "gl_01",
-        "term": "المستخدم - User",
-        "definition": "شخص يستخدم النظام للبحث عن مطاعم وطلب الطعام."
+        "term": "إدارة التذاكر - Ticket Management",
+        "definition": "نظام لتنظيم وتتبع التذاكر الخاصة بطلبات العملاء ومشاكلهم."
       },
       {
         "id": "gl_02",
-        "term": "الطلب - Order",
-        "definition": "مجموعة من العناصر التي تم اختيارها للشراء من المطعم."
+        "term": "نظام الرد الصوتي التفاعلي IVR - IVR System",
+        "definition": "نظام للتفاعل الصوتي مع العملاء عبر الهاتف لتوجيه المكالمات وإنشاء التذاكر."
       },
       {
         "id": "gl_03",
-        "term": "الإشعارات - Notifications",
-        "definition": "رسائل يتم إرسالها للمستخدم حول التحديثات والعروض."
+        "term": "تكامل النظام - System Integration",
+        "definition": "ربط الأنظمة المختلفة لتحقيق التشغيل الأوتوماتيكي وتحسين الكفاءة."
       },
       {
         "id": "gl_04",
-        "term": "التسجيل - Registration",
-        "definition": "عملية إنشاء حساب جديد داخل النظام."
+        "term": "المزامنة الثنائية الاتجاه - Bi-directional Synchronization",
+        "definition": "نقل البيانات في كلا الاتجاهين بين الأنظمة لضمان تحديثها بشكل متزامن."
       },
       {
         "id": "gl_05",
-        "term": "التتبع - Tracking",
-        "definition": "آلية لمراقبة سير عملية توصيل الطلب بواسطة GPS."
+        "term": "إدارة المستخدم - User Management",
+        "definition": "إجراءات لإضافة المستخدمين وتعيين الصلاحيات لهم وفقًا لأدوارهم."
       },
       {
         "id": "gl_06",
-        "term": "المطعم - Restaurant",
-        "definition": "شريك يقدم قوائم الطعام وينفذ الطلبات للمستخدمين."
+        "term": "الاستيفاء - Escalation",
+        "definition": "عملية رفع مستوى التذاكر أو الطلبات إلى إدارة أعلى عند الضرورة."
       },
       {
         "id": "gl_07",
-        "term": "المنتج - Product",
-        "definition": "عنصر غذائي يمكن للمستخدمين إضافته إلى سلة الطلبات."
+        "term": "لوحات المعلومات - Dashboards",
+        "definition": "أدوات لعرض الأداء والمؤشرات الحيوية للإدارة."
       },
       {
         "id": "gl_08",
-        "term": "السلة - Cart",
-        "definition": "قائمة مؤقتة تحتوي على المنتجات التي يرغب المستخدم في شرائها."
+        "term": "التدريب - Training",
+        "definition": "توفير البرامج التعليمية للموظفين لاستخدام النظام بكفاءة."
       },
       {
         "id": "gl_09",
-        "term": "الصفحة الرئيسية - Home Page",
-        "definition": "واجهة تعرض الطلبات الجارية والمطاعم الشهيرة والعروض."
+        "term": "اتصال متعدد القنوات - Multi-channel Communication",
+        "definition": "دعم التفاعل مع العملاء عبر عدة وسائط مثل الهاتف والبريد الإلكتروني والدردشة."
       },
       {
         "id": "gl_10",
-        "term": "التوصيل - Delivery",
-        "definition": "عملية توصيل الطلبات من المطعم إلى المستخدم."
+        "term": "إدارة الاتصال - Communication Management",
+        "definition": "الإشراف على جميع أشكال التواصل مع العملاء لضمان الجودة والفعالية."
       }
     ]
   },
@@ -63,26 +63,26 @@
       "name": "Introduction - المقدمة"
     },
     "paragraphs": [
-      "يهدف هذا المشروع إلى تطوير نظام شامل لطلب وتوصيل الطعام عبر الإنترنت، مصمم لتحسين تجربة المستخدم في طلب الطعام من خلال تقديم واجهة استخدام سهلة وميزانية متقدمة.",
-      "النظام يسعى إلى ربط المستخدمين بمجموعة متنوعة من المطاعم، مما يمكنهم من التصفح بسهولة، واختيار، وشراء الوجبات مع خيارات للتوصيل السريع.",
-      "تهدف الرؤية إلى تقديم خدمة طلب طعام مريحة وسلسة للمستخدمين، مما يعزز من سهولة الوصول والاستخدام.",
-      "السياق الأساسي لهذا المشروع هو تعزيز الاتصال بين مستخدمي النظام والمطاعم، مما يوسع نطاق الخيارات المتاحة للجميع.",
-      "يُعد هذا النظام أداة محورية لتحويل ممارسة طلب الطعام إلى تجربة مريحة وسهلة للمستهلك النهائي.",
-      "ستساهم الخاصية الموجهة نحو تعددية اللغات في زيادة الوصول إلى شريحة أوسع من المستخدمين حول العالم.",
-      "المشروع مصمم لتقديم تحديثات وإشعارات في الوقت الفعلي حول حالة الطلبات والعروض الترويجية.",
-      "يمكن للمستخدمين اكتشاف مجموعة من المطاعم والمنتجات بناءً على تفضيلاتهم، مما يوفر تجربة مخصصة تلبي احتياجاتهم الفردية.",
-      "يركز التصميم على تحسين الخدمة وتحقيق رضا العملاء من خلال تقديم خيارات للتوصيل السريع وتحسين تجربة الزبائن بشكل عام.",
-      "ستعزز هذه المنصة من القدرة على تواصل المستخدمين مع المطاعم والشركاء في تقديم خدمة متكاملة.",
-      "نظام التحقق سيمكّن المستخدمين من تسجيل الدخول بسهولة، بالإضافة إلى خيارات استرجاع كلمة المرور لسهولة الاستخدام.",
-      "سيُتيح فرز وتصفية القائمة والأطعمة بناءً على مجموعة متنوعة من المعايير، مما يسمح بخيارات بحث أكثر كفاءة.",
-      "تبرز واجبات إدارة الطلبات بوصفها جزءًا لا يتجزأ من هذا النظام، مما يوفر للمستخدمين متابعة دقيقة وحقيقية للطلبات.",
-      "ستدعم المنصة إمكانية تحديد المطاعم عبر خدمات تحديد الموقع الجغرافي، بالإضافة إلى اختيار المدينة يدويًا.",
-      "يتيح النظام إمكانية تضمين تقنيات متقدمة لمراقبة وتعديل الطلبات لضمان أقصى قدر من الدقة والفعالية.",
-      "سيوفر هذا المشروع ميزة تحرير المعلومات الشخصية للمستخدم، مما يمنح العملاء تحكمًا أكبر في ملفاتهم الشخصية.",
-      "هناك تركيز قوي على توفير تجربة مستخدم سلسة، مما يعزز من تفاعل المستخدمين مع النظام.",
-      "ستمكن المرافق الإضافية المستخدمين من الوصول بسهولة إلى مطاعمهم المفضلة والعروض الجديدة.",
-      "تمثل الإشعارات الفورية عنصرًا محوريًا في النظام، مما يضمن تحديث المستخدمين بمعلومات حيوية.",
-      "يهدف المشروع إلى تحقيق تصور كامل لتجربة استخدام فريدة، مع دمج مختلف العمليات في منصة واحدة."
+      "يتمحور هذا المشروع حول تطوير نظام مركز اتصال متكامل يتصل بنظام إدارة التذاكر لشركة الجزيرة كابيتال. الهدف الرئيسي هو تلبية احتياجات العملاء بسرعة وكفاءة عن طريق دمج عمليات خدمة العملاء مع إدارة التذاكر، مما يخلق تجربة سلسة عبر القنوات الإلكترونية والهاتفية.",
+      "يعتمد المشروع على الخبرات الواسعة لمزود الحلول الرقمية المعنية، ويستند إلى أفضل الممارسات في السوق وتحليل البيانات التاريخية لخدمة العملاء. يحدد هذا المشروع نطاق العمل، تدفقات الخدمة وآليات التصعيد الأساسية لتحسين مؤشرات الأداء وضمان تحقيق الأهداف الاستراتيجية للمؤسسة.",
+      "الرؤية لهذا المشروع هي تحسين تجربة العملاء بشكل جذري من خلال توفير أدوات مبتكرة تعزز العمليات التشغيلية وتعطي الأولوية للاحتياجات الفردية لكل عميل.",
+      "تعد السرعة والكفاءة في معالجة طلبات الخدمة من الأهداف الأساسية لهذا المشروع، مع التركيز على تقديم دعم متكامل عبر جميع قنوات الخدمة.",
+      "سيوفر النظام لوحات معلومات أداء للإدارة لمراقبة جودة الخدمة وتحسين العمليات بشكل مستمر لضمان تطابق المخرجات مع الأهداف الاستراتيجية.",
+      "سيتضمن النظام آليات لضمان الامتثال والحوكمة من خلال توثيق شامل لجميع التذاكر والإجراءات ذات الصلة مما يعزز من الالتزام بمعايير الجودة والشفافية.",
+      "يتميز نظام إدارة التذاكر بتخصيص تدفقات العمل وتحديد قواعد التوجيه والتصعيد لتحقيق الكفاءة في حل المشاكل وخدمة العملاء بشكل مبتكر.",
+      "سيتم تصميم واجهات المستخدم لتتسم بالمرونة، وتدعم الإشعارات التلقائية عبر البريد الإلكتروني أو الرسائل القصيرة، مما يعزز من خدمة العملاء الاستباقية.",
+      "ستتولى إدارة المهام المستخدمين بما في ذلك التعيين وإلغاء التعيين والتعديل، مما يتيح بيئة عمل أكثر تنظيماً وكفاءة.",
+      "سيتيح النظام للأعضاء المعنيين عرض تفاصيل التذاكر بشكل شامل مع إمكانيات بحث متقدمة لضمان معالجة فعالة وموجهة لكل حالة.",
+      "من خلال التكامل مع نظام IVR، سيتمكن النظام من التعرف على هوية المتصل وإنشاء تذاكر جديدة مرفقة ببيانات العملاء المسجلة مسبقًا.",
+      "سيقوم النظام بتسجيل تفاصيل المكالمة في نظام التذاكر مع تحديد نوع المكالمة والقسم والأولوية، مما يساهم في تخصيص الخدمة بشكل أكثر دقة.",
+      "سيوفر التكامل مع قاعدة بيانات العملاء مزامنة فعال وذو اتجاهين لبيانات العملاء بين القاعدة ونظام التذاكر.",
+      "سيكون هناك إمكانية عرض سجل العميل بالكامل من بدء التذكرة حتى إغلاقها، مما يسهل متابعة العملية كاملة وتحسين رضا العملاء.",
+      "سوف تتضمن إدارة المستخدمين إضافة مستخدمين جدد وتخصيص الأذونات بدقة حسب الأدوار، مما يعزز بيئة عمل آمنة ومنظمة.",
+      "سيتم ربط المستخدمين بالأقسام المناسبة لضمان سلاسة تدفق العمل وتحقيق أقصى استفادة من القدرات البشرية المتاحة.",
+      "يتسم تخزين تفاصيل حساب المستخدم والأذونات بالأمان لضمان مراجعة الحوكمة والامتثال بشكل دوري.",
+      "تشمل إدارة الاتصالات دعم الاتصال متعدد القنوات، بما في ذلك المكالمات، وواتساب، والدردشات الرقمية، والبريد الإلكتروني، مما يعزز من التفاعل المتكامل.",
+      "سيتيح النظام التعامل مع مكالمات متزامنة ودعم الاتصالات ثنائية الاتجاه، مما يسهم في خدمة العملاء بشكل فعال ودقيق.",
+      "سيتمكن المديرون والمسؤولون من عرض تقارير الأداء وفقاً للأذونات الممنوحة، مع إمكانية إعداد وتصدير تقارير تركز على توزيع أنواع القضايا ومعدلات إغلاق التذاكر وأداء الموظفين."
     ]
   },
   "importance": {
@@ -91,16 +91,16 @@
       "name": "Importance - أهمية المشروع"
     },
     "points": [
-      "يساهم المشروع في زيادة كفاءة عملية الطلب والدفع، مما يوفر الوقت والجهد للعملاء والمطاعم.",
-      "يعزز رضا العملاء بفضل واجهة المستخدم السهلة والتجربة السلسة، مما يزيد من ولاء العملاء.",
-      "يتيح للمطاعم فرصة الوصول إلى شريحة أوسع من العملاء وزيادة مبيعاتهم من خلال تقديم عملية طلب بسيطة وسهلة.",
-      "يمكن للمشروع تقليل الأخطاء البشرية في معالجة الطلبات والدفع، مما يزيد من دقة العمليات.",
-      "يقدم تحسينات في سرعة التسليم من خلال خيارات التوصيل السريع، مما يعزز تجربة العملاء الإيجابية.",
-      "يدعم تقديم تنبيهات في الوقت الفعلي للعملاء والمطاعم، مما يساعد في الحفاظ على التواصل الفعّال مع جميع الأطراف.",
-      "يحفز التعاون مع المطاعم المحلية الجديدة والقائمة وتحسين العلاقات بين العملاء والمزودين.",
-      "يوفر الدعم للغات متعددة مما يتيح الوصول إلى قاعدة عملاء متنوعة وزيادة الشمولية.",
-      "يساعد في تحسين التواجد الرقمي للمطاعم من خلال عرض منتجاتهم وخدماتهم بشكل أكثر فاعلية وجاذبية.",
-      "يمكن للمشروع تحسين سمعة المطاعم من خلال تقييمات العملاء والطلبات المتكررة مما يعزز من مرئيتهم في الأسواق."
+      "يضمن تحسين الكفاءة التشغيلية من خلال تكامل مركز الاتصال مع نظام إدارة التذاكر.",
+      "يساعد في تقليص زمن الاستجابة ومعالجة طلبات الخدمة بسرعة أكبر.",
+      "يوفر لوحة تحكم للأداء تُمكن الإدارة من متابعة جودة الخدمة وتحسين العمليات بشكل مستمر.",
+      "يساهم في تحقيق الامتثال والحوكمة من خلال توثيق جميع التذاكر والإجراءات المرتبطة بها بدقة.",
+      "يسمح بمزامنة ثنائية الاتجاه لبيانات العملاء مما يضمن الوصول الفوري إلى كافة معلومات العملاء.",
+      "يعزز من تجربة العملاء بتحسين آليات التواصل وتعدد قنوات الاتصال المتاحة.",
+      "يمكن من تقليص الأخطاء البشرية عبر أتمتة الإشعارات وعمليات تخصيص التذاكر.",
+      "يوفر تقارير مخصصة تمكن من تحليل نسبة إرضاء العملاء وحجم المكالمات وأداء الموظفين.",
+      "يساعد على تحسين الإجراءات الداخلية من خلال إدارة دقيقة لمهام المستخدمين وارتباطهم بالأقسام المناسبة.",
+      "يعزز التفاعل مع العملاء بفضل التكامل مع منصات مثل WhatsApp والمحادثات الرقمية والبريد الإلكتروني."
     ]
   },
   "goals": {
@@ -109,16 +109,16 @@
       "name": "Goals - أهداف المشروع"
     },
     "points": [
-      "توفير خدمة طلب طعام سهلة الاستخدام لجميع المستخدمين بحلول نهاية العام.",
-      "إتاحة قائمة متنوعة من المطاعم لزيادة العملاء المسجلين بنسبة 20٪ خلال الستة أشهر المقبلة.",
-      "تحقيق زمن توصيل أقل من 30 دقيقة في 80٪ من الطلبات بحلول العام المقبل.",
-      "تقديم تحديثات فورية للحالة الطلب لزيادة رضا العملاء بنسبة 15٪ خلال السنة الأولى.",
-      "تقديم التطبيق بلغتين، العربية والإنجليزية، في جميع المناطق المستهدفة من الإطلاق.",
-      "زيادة نسبة المستخدمين النشطين إلى 50٪ خلال السنة الأولى من إطلاق النظام.",
-      "تمكين الدفع عبر الإنترنت لجميع المستخدمين وزيادة معاملات الدفع الرقمية بنسبة 30٪ خلال السنة الأولى.",
-      "تطوير نظام تصفية متقدم لتمكين المستخدمين من العثور على المطاعم التي تلبي تفضيلاتهم بنسبة نجاح 95٪.",
-      "تحسين نظام التعرف على الموقع لزيادة دقة التوصيات المكانية بنسبة 10٪ خلال الستة أشهر الأولى.",
-      "زيادة تفاعل المستخدمين مع عروض النظام بنسبة 25٪ من خلال الاستهداف والإشعارات الذكية."
+      "إنشاء مركز اتصال متكامل يربط بين إدارة خدمة العملاء وإدارة التذاكر عبر جميع القنوات خلال 6 أشهر.",
+      "تسريع أوقات الاستجابة وتقليل متوسط وقت معالجة الطلبات إلى أقل من 3 دقائق.",
+      "تقديم لوحة معلومات أداء للإدارة خلال الربع الأول لتحسين جودة الخدمة.",
+      "توفير نظام وثائق شامل لكل التذاكر والإجراءات المتبعة لتحقيق الامتثال بنسبة 100٪.",
+      "دمج منصة IVR بنظام التذاكر لتمكين خدمة العملاء بشكل تلقائي خلال أول شهرين.",
+      "تحقيق نسبة دقة 95٪ في التعرف على هوية المتصل وإنشاء التذاكر الجديدة.",
+      "تمكين تحديث ثنائي الاتجاه لبيانات العملاء بين قاعدة البيانات ونظام التذاكر.",
+      "إضافة 100 مستخدم جديد للنظام وتوزيعهم على الأقسام المناسبة خلال 3 أشهر.",
+      "دعم قنوات الاتصال المتعددة بما في ذلك المكالمات والدردشة خلال أول 4 أشهر.",
+      "إعداد تقارير شهرية عن توزيع أنواع المشاكل ونسب إغلاق التذاكر وكفاءة الأداء الوظيفي للموظفين."
     ]
   },
   "scope": {
@@ -127,20 +127,20 @@
       "name": "Scope - نطاق المشروع"
     },
     "included": [
-      "إدارة تسجيل الدخول للمستخدمين واسترجاع كلمات المرور.",
-      "تصفح القوائم والمنتجات مع خيارات التصفية والترتيب.",
-      "استكشاف المطاعم والمنتجات وتقديم تقييمات لها.",
-      "إدارة السلة وعملية الدفع بما في ذلك إدخال العنوان واختيار الدفع.",
-      "إدارة وتتبع الطلبات مع توفير تحديثات فورية للحالة.",
-      "تحديث وتحرير معلومات حساب المستخدم والعناوين وكلمات المرور.",
-      "عرض الصفحة الرئيسية للمطاعم القريبة والمنتجات الشائعة والإعلانات.",
-      "إرسال إشعارات فورية عن حالة الطلب والعروض والتوصيات حسب الموقع.",
-      "دعم اللغتين العربية والإنجليزية في النظام.",
-      "تحديد المطاعم تلقائيًا باستخدام خدمات الموقع GPS أو اختيار المدينة يدويًا."
+      "ربط مركز الاتصال بنظام إدارة التذاكر عبر كافة قنوات الخدمة.",
+      "تسريع أوقات الاستجابة وتحسين معالجة طلبات الخدمة.",
+      "تزويد لوحة قياس الأداء للمديرين لمراقبة جودة الخدمة وتحسين العمليات.",
+      "دمج المعلومات الثنائية للمستخدمين بين النظام القاعدي ونظام التذاكر.",
+      "إدارة مهام المستخدمين بما في ذلك التعيين والإلغاء والتعديل.",
+      "إدماج النظام الصوتي الآلي (IVR) مع نظام التذاكر لخدمة العملاء الفعالة.",
+      "التعرف على هوية المتصل لفتح تذاكر جديدة تحتوي على بيانات العميل.",
+      "التخزين الآمن لحسابات المستخدمين وتفاصيل الأذونات لمراجعة الامتثال والحكم.",
+      "دعم الاتصال عبر قنوات متعددة مثل المكالمات والدردشة الرقمية والبريد الإلكتروني.",
+      "تحضير وتصدير التقارير التي تركز على توزيع نوع المشاكل ومعدلات إغلاق التذاكر وأداء الموظفين."
     ],
     "diagrams": [
       {
-        "description": "Context Diagram showing the system connected with Users, Delivery Personnel, Restaurants, and GPS/Localization Services"
+        "description": "Context Diagram showing System integrating Contact Center, Ticket Management, Customer Database, and IVR."
       }
     ]
   },
@@ -150,11 +150,9 @@
       "name": "Out of Scope - خارج نطاق المشروع"
     },
     "excluded": [
-      "إدارة أجهزة المستخدم أو تحديث أنظمة التشغيل الخاصة بهم.",
+      "إدارة البنية التحتية أو تطوير الوحدات الخارجية.",
       "تقديم خدمة الدعم الفني المباشر عبر الهاتف.",
-      "إدارة العمليات اللوجستية خارج النظام.",
-      "تطوير التطبيقات لنظام تشغيل بخلاف تطبيقات الويب والجوال.",
-      "دعم عمليات الدفع بعملات غير العملة المحلية."
+      "إغلاق التذاكر بواسطة غير الوكلاء المخصصين."
     ]
   },
   "assumptions_constraints": {
@@ -163,28 +161,28 @@
       "name": "Assumptions & Constraints - الافتراضات والقيود"
     },
     "assumptions": [
-      "المستخدمون لديهم اتصال دائم بالإنترنت للوصول إلى جميع الميزات.",
-      "النظام سيدعم التطبيق على منصات متعددة لضمان الوصول الواسع.",
-      "المستهلكون سيكون لديهم معرفة باستخدام الأجهزة التكنولوجية بشكل عام.",
-      "المطاعم سوف تقدم قوائم طعام دقيقة ومحدثة.",
-      "المنتجات التي تقدمها المطاعم متوفرة دائمًا وجاهزة للتحضير الفوري.",
-      "الخوادم قادرة على التعامل مع حجم الطلبات الكبير دون تأخير.",
-      "اللغات المدعومة سيتم توفرها بشكل كامل في جميع أجزاء النظام.",
-      "نظام الموقع سيعمل بشكل دقيق في تحديد مواقع المستخدمين.",
-      "المستخدمون سيقومون بتزويد معلومات صحيحة وكاملة لعمليات الدفع.",
-      "المطاعم ستراقب وتحدث تقييماتها وتصنيفاتها بشكل منتظم."
+      "الموظفين سيتم تدريبهم بالشكل الكافي لاستخدام الأنظمة المطورة حديثاً.",
+      "النظام سيعمل حصرياً مع البنية التحتية للشبكة الحالية المقدمة من قبل أقسام الجزيره كابيتال.",
+      "سيتم تنفيذ النظام بما يتماشى مع أفضل الممارسات في السوق.",
+      "سيتم توفير واجهة مستخدم مخصصة لجميع الأنواع المحددة من المستخدمين.",
+      "سيمكن من إدارة مهام المستخدمين وإجراء التعديلات بشكل فعال.",
+      "ستكون البيانات متاحة لعرض سجل العميل الكامل من الإنشاء إلى الإغلاق.",
+      "سيكون هناك تزامن باتجاهين بين بيانات العملاء في قاعدة البيانات ونظام التذاكر.",
+      "ستكون هناك إمكانيات للإبلاغ عن رضا العملاء وحجم المكالمات وأداء الموظفين.",
+      "سيمكن للمديرين والمشرفين عرض تقارير الأداء بناءً على أذوناتهم.",
+      "سيكون النظام قادراً على التعامل مع التواصل ثنائي الاتجاه."
     ],
     "constraints": [
-      "يجب أن يعمل النظام بفاعلية مع اتصال إنترنت مستقر.",
-      "أنظمة التوثيق يجب أن تضمن أمان وخصوصية بيانات المستخدم.",
-      "يجب أن تكون واجهة المستخدم بديهية وسهلة الاستخدام بغض النظر عن اللغة المختارة.",
-      "ساعات عمل المطاعم قد تؤثر على توقيتات الطلبات والتسليم.",
-      "النظام يجب أن يكون متوافقًا مع اللوائح المحلية لكل منطقة يتم تقديم الخدمة فيها.",
-      "إضافة وتصحيح اللغات الأخرى قد يتطلب تحديثات مستمرة مع تغييرات المحتوى.",
-      "التحسينات على التسليم تعتمد على التعاون بين شركات التوصيل.",
-      "الجرد الفوري للبضائع يعتمد على بيانات دقيقة مقدمة من المطاعم.",
-      "القدرة على اختصار أوقات التسليم تعتمد على وجود موارد كافية.",
-      "أنظمة الدفع تحتاج إلى التكامل مع منصات الدفع المختلفة لتسهيل العمليات."
+      "المشروع يغطي فقط تطوير وتشغيل مركز الاتصال وأنظمة التذاكر والارتباط بينها.",
+      "النظام متصل فقط بالبنية التحتية القائمة دون تضمين العناصر الخارجية.",
+      "فقط وكلاء الاتصال المعينين يمكنهم إغلاق التذاكر لضمان الاتساق والمساءلة.",
+      "يجب أن يتم الامتثال لجميع القوانين واللوائح المتعلقة بالحوكمة والامتثال.",
+      "يجب أن تظل بيانات العميل خاصة وآمنة مع التقيد بلوائح الخصوصية المنطبقة.",
+      "سيكون هناك عدة امتيازات وفوائد متاحة فقط للمستخدمين المعينين.",
+      "جميع الإشعارات الإلكترونية تعتمد على البنية التحتية للاتصالات الحالية.",
+      "النظام يجب أن يضمن التزام الموظفين بالوقت والمواعيد النهائية المحددة للعملاء.",
+      "سيتم تحديد مسارات العمل مع قواعد التوجيه والتصعيد مسبقًا لضمان الفعالية.",
+      "النظام يغطي فقط عمليات التواصل المتعددة القنوات مثل المكالمات وواتساب والبريد الإلكتروني."
     ]
   },
   "current_state": {
@@ -193,16 +191,16 @@
       "name": "Current State - الوضع الحالي"
     },
     "points": [
-      "يتم الطلب من خلال مكالمات هاتفية أو زيارات مباشرة للمطاعم.",
-      "لا توجد واجهة مستخدم موحدة لعرض قوائم المطاعم بشكل مريح.",
-      "المستخدمون يعتمدون على المواقع الخارجية لتقييم المطاعم.",
-      "عدم وجود نظام فعال لتتبع حالة الطلبات في الوقت الحقيقي.",
-      "تحديثات الطلب تعتمد على التواصل الهاتفي مع المطعم.",
-      "التوصيل لا يشمل خيارات سريعة أو مُحسَّنة زمنياً.",
-      "لا وجود لدعم لغوي متعدد ضمن النظام الحالي.",
-      "عدم توفر نظام لإرسال الإشعارات الترويجية أو الإعلانية مباشرة.",
-      "تقييم واختيار المنتجات يعتمد على الكتالوجات الورقية أو النصوص غير المنظمة.",
-      "غياب الدعم للمدفوعات الإلكترونية والاعتماد على الدفع نقداً عند الاستلام."
+      "عدم التكامل بين مراكز الاتصال ونظام إدارة التذاكر.",
+      "معالجة الطلبات تستغرق وقتاً طويلاً بسبب العمليات اليدوية.",
+      "غياب نظام الإفصاح عن الأداء الفوري للإدارة.",
+      "عدم توفر خاصية المزامنة المباشرة لبيانات العملاء بين الأنظمة المختلفة.",
+      "التقارير الإدارية تُعَدُ بشكل يدوي وتتطلب جهداً كبيراً.",
+      "عدم وجود قواعد تصعيد فعّالة للمشكلات العالقة.",
+      "بيانات العملاء غير محدثة بشكل مستمر بين قنوات الخدمة المختلفة.",
+      "انعدام نظام لربط تعريف المتصل ببيانات العميل بشكل تلقائي.",
+      "إدارة الصلاحيات والمهام تتم بشكل غير منهجي.",
+      "التواصل عبر القنوات المختلفة يتم بشكل منفصل وغير موحد."
     ]
   },
   "actors": {
@@ -213,55 +211,55 @@
     "rows": [
       {
         "id": "ac_01",
-        "role": "المستخدم",
-        "description": "يقوم بتصفح التطبيق، البحث عن المطاعم، وإجراء الطلبات."
+        "role": "وكيل الاتصال",
+        "description": "يتعامل مع استفسارات العملاء وينشئ التذاكر."
       },
       {
         "id": "ac_02",
-        "role": "المسؤول",
-        "description": "يدير النظام، يضيف المطاعم، ويتابع أداء الطلبات."
+        "role": "المشرف",
+        "description": "يراقب وكلاء الاتصال ويشرف على معالجة التذاكر."
       },
       {
         "id": "ac_03",
-        "role": "سائق التوصيل",
-        "description": "يستلم الطلبات ويقوم بتوصيلها إلى العملاء."
+        "role": "مسؤول النظام",
+        "description": "يدير الوصول للمستخدمين وتكوينات النظام."
       },
       {
         "id": "ac_04",
-        "role": "نظام الدفع الإلكتروني",
-        "description": "يتكامل مع النظام لمعالجة عمليات الدفع الإلكتروني."
+        "role": "مدير",
+        "description": "يراجع تقارير التشغيل ولوحات قياس الأداء."
       },
       {
         "id": "ac_05",
-        "role": "خدمة الإشعارات",
-        "description": "ترسل إشعارات فورية للمستخدمين حول حالة الطلبات والعروض."
+        "role": "نظام الـ IVR",
+        "description": "يتكامل مع النظام للتعامل بكفاءة مع خدمة العملاء."
       }
     ],
     "diagrams": [
       {
-        "name": "مخطط حالة استخدام لتسجيل الدخول والتسجيل",
-        "description": "Use Case Diagram showing Actor 'User' interacting with two use cases: 'Register New User' and 'Login'.",
-        "url": "https://brd-qi0f.onrender.com/static/c5077caa54884ed58842e8cb3a18c332.svg"
+        "name": "مخطط حالة استخدام لإنشاء وإدارة التذاكر",
+        "description": "Use Case Diagram showing Actor 'Contact Agent' creating and managing tickets. Actor 'Supervisor' oversees ticket escalation and resolution.",
+        "url": "https://brd-qi0f.onrender.com/static/37b4c01fd70a40c4bc0074cf04a8d76c.svg"
       },
       {
-        "name": "مخطط حالة استخدام لإدارة الطلبات",
-        "description": "Use Case Diagram showing Actor 'Admin' managing 'Order Management' and 'Order Tracking'. Actor 'Delivery Driver' participates in 'Accept Order' and 'Confirm Delivery'.",
-        "url": "https://brd-qi0f.onrender.com/static/26699f6c730b47668d1fdf89a7e756c4.svg"
+        "name": "مخطط حالة استخدام لتكامل نظام IVR",
+        "description": "Use Case Diagram showing Actor 'IVR System' initiating 'Create Ticket with Caller ID' and logging call details into the ticketing system with type, department, and priority.",
+        "url": ""
       },
       {
-        "name": "مخطط حالة استخدام لعملية الدفع",
-        "description": "Use Case Diagram showing Actor 'User' initiating 'Make Payment' and Actor 'Payment Gateway' processing 'Transaction' with confirmation status.",
-        "url": "https://brd-qi0f.onrender.com/static/3168ba6f8ab548ad92ccbe6441b10357.svg"
+        "name": "مخطط حالة استخدام لتزامن قاعدة بيانات العملاء",
+        "description": "Use Case Diagram showing bi-directional synchronization of customer data to ensure full customer record tracking. Actor 'System Administrator' manages the synchronization process.",
+        "url": "https://brd-qi0f.onrender.com/static/ff68a00e375c4db79a2f5d7ca60dc20a.svg"
       },
       {
-        "name": "مخطط حالة استخدام للإشعارات",
-        "description": "Use Case Diagram showing Actor 'Notification Service' pushing messages such as 'Order Confirmation', 'Status Updates', and 'Promotions' to Actor 'User'.",
-        "url": "https://brd-qi0f.onrender.com/static/4638c3e2f6d548fe97d37f240be6f8ee.svg"
+        "name": "مخطط حالة استخدام لإدارة المستخدمين",
+        "description": "Use Case Diagram showing Actor 'System Administrator' adding new users, assigning permissions, and managing departmental links for effective workflow.",
+        "url": "https://brd-qi0f.onrender.com/static/1ce2743a943a46b3ba0b19d3915ba7ad.svg"
       },
       {
-        "name": "مخطط حالة استخدام لتقييم المطاعم",
-        "description": "Use Case Diagram showing Actor 'User' performing 'Rate Restaurant' and 'Write Review'. Actor 'Admin' monitors reviews through 'Review Moderation'.",
-        "url": "https://brd-qi0f.onrender.com/static/eae01ed9f46b4632b04f260ba45d6452.svg"
+        "name": "مخطط حالة استخدام لإعداد تقارير الأداء",
+        "description": "Use Case Diagram showing Actor 'Manager' viewing and exporting performance reports with focus on issue type distributions, ticket closure rates, and employee performance monitoring.",
+        "url": "https://brd-qi0f.onrender.com/static/e77e8653c79943629e3612f0a5788835.svg"
       }
     ]
   },
@@ -270,17 +268,17 @@
       "id": "dependency_and_integration",
       "name": "Dependencies & Integrations - التبعيات والتكامل"
     },
-    "description": "النظام يعتمد على خوادم الدفع الإلكتروني ويدمج مع خدمات تحديد المواقع الجغرافية ونظام الإشعارات ولغات الترجمة الخارجية.",
+    "description": "النظام يعتمد على قاعدة بيانات خارجية للعملاء، ويتطلب تكاملاً مع نظام ال-IVR، وخدمة الرسائل القصيرة، ونظام إدارة المستخدمين، وخدمة التقارير الخارجية.",
     "diagrams": [
       {
-        "name": "مخطط المكونات للنظام",
-        "description": "Component Diagram detailing the internal structures of the food ordering system including main components such as Frontend, Backend, and REST API integrators. The Backend interfaces with External Payment Gateway, Localization Service, and Notification Service for seamless operations.",
-        "url": "https://brd-qi0f.onrender.com/static/8a9a1eef306247d7a4e42f0c072e9261.svg"
+        "name": "مخطط المكونات للتكامل",
+        "description": "Component Diagram showing the Contact Center System with components including the Ticket Management System, IVR System, SMS Notification Service, and User Management System. The Ticket Management System integrates with the IVR System to create tickets automatically and send SMS notifications.",
+        "url": "https://brd-qi0f.onrender.com/static/208aa5ac5be94084ae004a49ca05bdff.svg"
       },
       {
-        "name": "مخطط النشر للبنية التحتية",
-        "description": "Deployment Diagram illustrating the primary nodes involved: Client Mobile Application, Web Hosting Server, Backend API Server, and Localization Server. The Backend API Server interacts with external GPS Services and the Payment Gateway over secured connections.",
-        "url": ""
+        "name": "مخطط النشر للخدمات",
+        "description": "Deployment Diagram showing nodes: Contact Agent Workstation, IVR Server, Ticket Management Server, and Customer Database Server. IVR Server communicates with Ticket Management Server to log call details and initiates ticket creation process. All communication occurs over secured network protocols.",
+        "url": "https://brd-qi0f.onrender.com/static/ddfbb7115c4d4fd9a3f9adf700a96f0d.svg"
       }
     ]
   },
@@ -291,54 +289,54 @@
     },
     "diagrams": [
       {
-        "name": "تدفق تسجيل دخول المستخدم",
-        "description": "Flow Chart for User Authentication: Start → Input Credentials (Username and Password) → Submit → Backend API Validates against User Database → Success leads to User Dashboard → Failure returns to Login Screen with Error Notification.",
-        "url": "https://brd-qi0f.onrender.com/static/ceb78e7c862f416e828b4bb5b3916130.svg"
+        "name": "تدفق إدارة التذاكر",
+        "description": "Flow Chart for Ticket Management System: Start → Ticket Creation → Assign to Department → Apply Routing Rules → Escalation Check → Notify Assigned Agent via Email/SMS → Agent works on Ticket → Ticket Closure or Reassignment based on Resolution",
+        "url": "https://brd-qi0f.onrender.com/static/17a754ad95ae45b49a40337d3edbcb7f.svg"
       },
       {
-        "name": "تدفق تصفح القائمة",
-        "description": "Flow Chart for Menu Browsing: Start → Fetch Menus from Database → Display Categories and Images → User Applies Filters (Name, Price) → User Selects Item → View Item Details including Description and Rating.",
+        "name": "تكامل IVR ونظام التذاكر",
+        "description": "System Architecture Diagram illustrating integration between IVR Platform and Ticket System: IVR captures Caller ID → Create New Ticket with Customer Data → Log Call Details specifying Type, Department, Priority → Data Flow from IVR to Ticket System",
+        "url": "https://brd-qi0f.onrender.com/static/4c44a3579c224776bcc202a15573e718.svg"
+      },
+      {
+        "name": "تزامن قاعدة بيانات العملاء",
+        "description": "Architecture Diagram for Bi-directional Synchronization: Customer Database ↔ Ticket System Synchronization → Initiate Ticket → Update Customer Data in Database → Close Ticket → Synchronize Changes back to Database",
+        "url": "https://brd-qi0f.onrender.com/static/24f35e42498d4c3ba56c24e7dcc4929a.svg"
+      },
+      {
+        "name": "إدارة المستخدمين",
+        "description": "Flow Chart showing User Management Process: Start → Add New User → Assign Roles and Define Permissions → Link User to Department → Store Account Details → Periodic Review for Governance and Compliance",
+        "url": "https://brd-qi0f.onrender.com/static/2cd002ee5c1d4032a0604a6e5ec014de.svg"
+      },
+      {
+        "name": "إدارة قنوات الاتصال",
+        "description": "System Architecture Diagram displaying Communication Channel Management: Calls, WhatsApp, Digital Chats, Email → System Components for Concurrent Handling and Bidirectional Communication → Central Management Module",
+        "url": "https://brd-qi0f.onrender.com/static/d40cbed4cd8f4e20851c50198385d0ef.svg"
+      },
+      {
+        "name": "لوحة الأداء والتقارير",
+        "description": "Architecture Diagram representing Reporting and Dashboard System: Data Flow from Ticket System to Reporting Engine → Generate Performance Reports → Managers and Admins Access Reports Based on Permissions → Export Functionality",
+        "url": "https://brd-qi0f.onrender.com/static/dd9772d0ebfd47af86605eb46ab92e62.svg"
+      },
+      {
+        "name": "تدفق التصعيد",
+        "description": "Flow Chart detailing Ticket Escalation Process: Ticket Creation → Initial Agent Assignment → Escalation Decision Point → Notify Supervisor/Manager if Escalated → Reassign or Provide Guidance to Agent → Close Ticket upon Resolution",
         "url": ""
       },
       {
-        "name": "تدفق عملية السلة والدفع",
-        "description": "Flow Chart for Cart and Checkout Process: User Adds Items to Cart → View Cart → Modify Quantities → Checkout → Enter Address Details → Select Payment Method → Enter Coupon (optional) → Finalize Order Summary → Submit Order.",
-        "url": "https://brd-qi0f.onrender.com/static/fe1f69edf278465aabed0ccacea9d5f0.svg"
+        "name": "التعامل مع المكالمات المتعددة",
+        "description": "Flow Chart for Multi-Call Handling: Start → Incoming Call Queue → Concurrent Handling Decision → Assign to Available Agent → Create Ticket → Log Call and Ticket Details → Notify Customer Upon Completion",
+        "url": "https://brd-qi0f.onrender.com/static/0b2cde715cac433c862f6ca97ba06a0e.svg"
       },
       {
-        "name": "إدارة الطلبات",
-        "description": "Flow Chart for Order Management: Start → List User Orders → Select Order for Details → Show Order Status and tracking → Option to Contact Delivery → End with Option to Rate Orders.",
-        "url": "https://brd-qi0f.onrender.com/static/0f9f1bbeeddd46e5a37152945de032a4.svg"
+        "name": "نظام إدارة المهام للمستخدم",
+        "description": "Flow Chart for User Task Management: Start → Task Assignment → Task Notification via Email/SMS → User Accepts Task → Task Execution → Task Completion or Escalation Decision → Task Closure",
+        "url": "https://brd-qi0f.onrender.com/static/e83f8caf839248259624351e575a5c94.svg"
       },
       {
-        "name": "تدفق الإشعارات اللحظية",
-        "description": "Flow Chart for Real-Time Notifications: Event Trigger (Order Status Change, New Offer) → Notification Service Activated → Send Push Notification to Mobile App → Web User Views Tooltip → User Acknowledges Notification.",
-        "url": ""
-      },
-      {
-        "name": "تدفق الاستكشاف والتصنيف",
-        "description": "Flow Chart for Restaurant and Product Exploration: Start → Fetch Restaurants from Database → Apply Filters (Category, Fast Delivery, Rating) → Display Restaurant List → User Selects Restaurant to View Menu.",
-        "url": "https://brd-qi0f.onrender.com/static/d7386e91348941439f6fa6605406a7c3.svg"
-      },
-      {
-        "name": "البنية التحتية للتوطين ودعم اللغة",
-        "description": "System Architecture Diagram showing Application interfacing with Localization Service. Display Translation Database managing Arabic and English Content. Illustrate User Interface Layer adjusting Language and Layout accordingly.",
-        "url": ""
-      },
-      {
-        "name": "هيكلية نظام بيانات الموقع",
-        "description": "System Architecture Diagram featuring User Device interacting with GPS Module. Display Backend Server processing GPS Data for Restaurant Detection. Alternative: Manual City Input by User feeds into the System for Location Services.",
-        "url": "https://brd-qi0f.onrender.com/static/f2cb963389974e60873f2ecd2137fc7a.svg"
-      },
-      {
-        "name": "تدفق إدارة حساب المستخدم",
-        "description": "Flow Chart for User Account Management: Start → User Accesses Profile → Edit Information or Change Address or Update Password → Submit Changes → Backend Updates Database → Return Confirmation to User.",
-        "url": "https://brd-qi0f.onrender.com/static/bfa8497c507d4c24996f3ac5d8859730.svg"
-      },
-      {
-        "name": "هيكلية خدمة التوصيل",
-        "description": "System Architecture Diagram showing Integration between User App and Delivery Personnel App through API. Backend manages Orders and Delivery Tracking via GPS. Show Interactive Component allowing Drivers to Contact Users.",
-        "url": "https://brd-qi0f.onrender.com/static/03182a635ce140d08d8d0c16728e35f7.svg"
+        "name": "إعداد التقارير المخصصة",
+        "description": "Architecture Diagram for Custom Report Generation: Data Extraction from Ticket System → Reporting Engine Processing → User Defines Report Parameters → System Generates Report → User Views or Exports Report",
+        "url": "https://brd-qi0f.onrender.com/static/33ba23ce6e8249c7a654053db0ec9aef.svg"
       }
     ]
   },
@@ -350,192 +348,101 @@
     "items": [
       {
         "id": "fr_01",
-        "title": "تسجيل الدخول والتسجيل",
-        "description": "يجب على النظام السماح للمستخدمين بالتسجيل والدخول إلى حساباتهم بأمان. يتضمن ذلك استعادة كلمة المرور عند الحاجة. يتطلب النظام التحقق من صحة بيانات الاعتماد لتوفير درجات الأمان اللازمة.",
+        "title": "إدارة التذاكر",
+        "description": "يجب على النظام أن يدعم إدارة التذاكر من خلال تصميم تدفقات العمل، وتحديد قواعد التوجيه والتصعيد. يساعد هذا في ضمان معالجة جميع الطلبات بكفاءة ويتماشى مع أهداف الأداء الخاصة بالمؤسسة.",
         "priority": "عالي",
         "acceptance_criteria": [
-          "يمكن للمستخدم تسجيل حساب جديد بإدخال الاسم والبريد الإلكتروني وكلمة المرور.",
-          "يتم إرسال بريد إلكتروني لتفعيل الحساب بعد عملية التسجيل.",
-          "يمكن للمستخدم تسجيل الدخول باستخدام بيانات الاعتماد الصحيحة.",
-          "يمنع تسجيل الدخول بعد إدخال بيانات خاطئة أكثر من ثلاث مرات متتالية.",
-          "يمكن استعادة كلمة المرور باستخدام البريد الإلكتروني المسجل."
+          "يمكن لمدير النظام إنشاء وتعديل قواعد التوجيه للتذاكر.",
+          "يجب إرسال إشعارات آلية عند تلبية شروط تصعيد محددة.",
+          "يجب أن يوفر النظام واجهة مستخدم تساعد على تعديل البيانات بسهولة.",
+          "يجب تسجيل جميع عمليات إدارة التذاكر لأغراض المراجعة.",
+          "يتم توفير خيارات للبحث في تفاصيل التذكرة بشكل كامل."
         ],
         "diagrams": [
           {
-            "name": "مخطط النشاط لتسجيل الدخول",
-            "description": "Activity Diagram showing the workflow: User accesses Login Page → enters credentials → system validates → grants access → user can request password recovery.",
-            "url": "https://brd-qi0f.onrender.com/static/ba72c0996bde4c51898cbfcc42890080.svg"
+            "name": "مخطط النشاط لإدارة التذاكر",
+            "description": "Activity Diagram showing workflow: Ticket Created → rules assessed → ticket assigned to Agent → status updates logged → notification sent to Supervisor if escalated.",
+            "url": "https://brd-qi0f.onrender.com/static/85cbe63241f541a68b35db17767c58a3.svg"
           }
         ]
       },
       {
         "id": "fr_02",
-        "title": "استعراض القائمة والمنتجات",
-        "description": "يجب أن يتيح النظام للمستخدمين تصفح قائمة الطعام والمنتجات المصنفة حسب الأقسام بوجود صور ووصف مفصل. يجب أن يدعم النظام أيضًا الفلاتر المختلفة للبحث بسهولة عن العناصر.",
-        "priority": "متوسط",
+        "title": "تكامل نظام الرد الصوتي IVR مع نظام التذاكر",
+        "description": "يجب أن يتمكن النظام من التكامل بين منصة IVR ونظام التذاكر للوصول السريع إلى بيانات العميل وإنشاء تذاكر جديدة تلقائيًا بناءً على المكالمة.",
+        "priority": "عالي",
         "acceptance_criteria": [
-          "يمكن للمستخدم تصفح المنتجات بقوائم مصنفة حسب العناوين والمعروف عنها.",
-          "يدعم النظام الفلترة والتصنيف حسب الاسم والسعر والمعايير الأخرى.",
-          "يجب عرض الصور والوصف لكل منتج عند التصفية والاختيار.",
-          "يتم تحديث القائمة بواسطة النظام بشكل ديناميكي مع دعم التمرير اللامتناهي."
+          "يجب التعرف على معرف المتصل إذا كان مسجلاً في قاعدة بيانات العملاء.",
+          "يمكن لنظام IVR إنشاء تذكرة جديدة تلقائيًا باستخدام بيانات التعرف الخاصة بالعميل.",
+          "يجب تسجيل تفاصيل المكالمة في نظام التذاكر مع تحديد النوع والقسم والأولوية.",
+          "يتم تعيين الأولوية للعملاء بناءً على حالتهم في قاعدة بيانات الجزيرة كابيتال.",
+          "يجب أن يكون هناك اتصال ثنائي الاتجاه بين منصة IVR ونظام التذاكر للمعلومات المحدثة."
         ],
         "diagrams": [
           {
-            "name": "مخطط الصف لقائمة الطعام",
-            "description": "Class Diagram showing MenuItem class with attributes (name, description, image) and methods (Filter, Sort, InfiniteScroll).",
-            "url": ""
+            "name": "مخطط التسلسل لتكامل نظام IVR",
+            "description": "Sequence Diagram illustrating IVR checks Caller ID → if recognized, queries Customer Database → creates Ticket → logs call details into Ticketing System → updates sent back to IVR.",
+            "url": "https://brd-qi0f.onrender.com/static/b90ef36a371e4e198b4ae7a1de0084de.svg"
           }
         ]
       },
       {
         "id": "fr_03",
-        "title": "اكتشاف المطاعم والمنتجات",
-        "description": "يجب أن يتيح النظام للمستخدمين اكتشاف المطاعم والمنتجات من خلال خيارات الفلترة مثل الفئة، التوصيل السريع، التقييم، ومستوى السعر، مع توفير تفاصيل كاملة عن المنتجات وامكانية إضافة المراجعات.",
+        "title": "تزامن قاعدة بيانات العملاء",
+        "description": "يجب على النظام أن يدعم تزامن البيانات ثنائياً بين قاعدة بيانات العملاء ونظام التذاكر لضمان أن البيانات دقيقة ومحدثة.",
         "priority": "عالي",
         "acceptance_criteria": [
-          "يمكن للمستخدم تصفية المطاعم بواسطة فئة productos وتقييم ومستوى السعر.",
-          "يعرض النظام تفاصيل المنتجات مثل الصور والوصف والتقييم.",
-          "يمكن إضافة المنتجات إلى السلة وتقييمها من قبل المستخدم.",
-          "يدعم النظام عرض شارات وتنبيهات حول المنتج."
+          "يجب أن يشمل التزامن جميع البيانات الشخصية والسجلات التاريخية للعملاء.",
+          "يجب أن تعرض التذاكر جميع مراحل المعالجة من البداية إلى النهاية.",
+          "يجب توفير إمكانية إنشاء تقارير مخصصة تعرض رضى العملاء وحجم المكالمات وأداء الموظفين.",
+          "يجب أن تحدث عمليات المزامنة تلقائيًا عند تغيير البيانات في أي من النظامين.",
+          "يجب تسجيل جميع حالات التزامن لأغراض تتبع الأخطاء."
         ],
         "diagrams": [
           {
-            "name": "مخطط النشاط لاكتشاف المطاعم",
-            "description": "Activity Diagram showing Users using Filter Options → system displaying filtered Restaurant List → users selecting a restaurant → system displaying Restaurant Details Page.",
-            "url": ""
+            "name": "مخطط النشاط لتزامن قاعدة البيانات",
+            "description": "Activity Diagram showing Customer Data Change occurs → System initiates Sync Process → updates reflected in Ticket System and Database → changes logged → confirmation sent to initiating system.",
+            "url": "https://brd-qi0f.onrender.com/static/7b442e5a62d4458ebac168aa49a466eb.svg"
           }
         ]
       },
       {
         "id": "fr_04",
-        "title": "عملية السلة والدفع",
-        "description": "يجب أن يوفر النظام للمستخدمين القدرة على تعديل الكميات في السلة، تقييم الأسعار، والتوجه لعمليات الدفع بسهولة وسلاسة، والدفع عبر وسائل متعددة، مع دعم إدخال قسائم الخصم.",
+        "title": "إدارة المستخدمين",
+        "description": "النظام يجب أن يدعم إضافة مستخدمين جدد وتحديد أذوناتهم بدقة تبعًا لأدوارهم، وربط المستخدمين بالأقسام المناسبة لضمان تدفق العمل بشكل سلس.",
         "priority": "عالي",
         "acceptance_criteria": [
-          "يمكن للمستخدم إضافة وإزالة وتعديل الكميات في السلة.",
-          "يتم تحديث الأسعار الإجمالية في السلة عند كل تعديل.",
-          "يدعم النظام خيارات دفع متعددة منها النقد، وبطاقات الائتمان.",
-          "يمكن إدخال قسائم الخصم وتحديث الأسعار تلقائياً."
+          "يمكن لمدير النظام إضافة مستخدمين جدد بسهولة.",
+          "يجب أن تتيح واجهة المستخدم تحديد الأذونات بدقة.",
+          "يجب أن يتم تخزين بيانات الحساب للمستخدمين بأمان.",
+          "يمكن ربط المستخدمين بالوحدات التنظيمية المناسبة.",
+          "يجب على النظام أن يحتفظ بسجل لجميع التغييرات التي تطرأ على أذونات الدخول."
         ],
         "diagrams": [
           {
-            "name": "مخطط تسلسل عملية الدفع",
-            "description": "Sequence Diagram showing User adding items to Cart → modifies quantities → views updated pricing → proceeds to Checkout → selects payment method → completes order.",
-            "url": "https://brd-qi0f.onrender.com/static/3bc49ebb71704662ba3c99319072c72b.svg"
+            "name": "مخطط دراسي لإدارة المستخدمين",
+            "description": "Class Diagram illustrating User class attributes (UserID, Roles, Permissions, Department) with methods (AddUser, AssignPermissions, LinkDepartment).",
+            "url": "https://brd-qi0f.onrender.com/static/5a43b75bcab4495a94f4ac8a8d43932c.svg"
           }
         ]
       },
       {
         "id": "fr_05",
-        "title": "إدارة الطلبات",
-        "description": "يجب على النظام تقديم إمكانية للمستخدمين للوصول إلى تفاصيل الطلبات، تحديث الحالة في الوقت الحقيقي، وتقديم تتبع التوصيل عن طريق الGPS، مع خيار التواصل المباشر مع الشخص المسؤول عن التوصيل.",
-        "priority": "عالي",
-        "acceptance_criteria": [
-          "يمكن للمستخدم متابعة حالة الطلبات من الواجهة الرسومية للتطبيق.",
-          "يتم تحديث حالة الطلب في الوقت الحقيقي.",
-          "يدعم النظام تتبع التوصيل عبر GPS.",
-          "متاح خيار للتواصل مع الشخص المسؤول عن التوصيل مباشرة."
-        ],
-        "diagrams": [
-          {
-            "name": "مخطط النشاط لإدارة الطلبات",
-            "description": "Activity Diagram showing Order Creation → system updating Order Status → Users tracking via GPS → notification to Users upon status change.",
-            "url": "https://brd-qi0f.onrender.com/static/22a0dc31dcb6449a93f425a200a65d9a.svg"
-          }
-        ]
-      },
-      {
-        "id": "fr_06",
-        "title": "إدارة حساب المستخدم",
-        "description": "يجب أن يمكن النظام المستخدمين من إدارة ملفاتهم الشخصية بشكل كامل بما في ذلك تعديل المعلومات الشخصية، تحديث العناوين، وتغيير كلمة المرور بسهولة وسرعة.",
+        "title": "إدارة الاتصال",
+        "description": "يجب على النظام دعم الاتصال متعدد القنوات، وتضمين وظائف مثل التعامل مع المكالمات المتزامنة والتواصل الثنائي الاتجاه عبر مختلف وسائل الاتصال.",
         "priority": "متوسط",
         "acceptance_criteria": [
-          "يمكن للمستخدم تحديث المعلومات الشخصية مثل الاسم والبريد الإلكتروني.",
-          "يدعم النظام إضافة وتحديث وعرض العناوين المرتبطة بالحساب.",
-          "القدرة على تغيير كلمة المرور بأمان.",
-          "تظهر التحديثات فورا في واجهة المستخدم بعد الحفظ."
+          "يجب أن يدعم النظام الاتصالات عبر المكالمات، وWhatsApp، والدردشات الرقمية، والايميل.",
+          "يجب أن يكون النظام قادرًا على التعامل مع مكالمات متزامنة بشكل فعال.",
+          "يجب أن يوفر النظام أدوات للدمج بين القنوات المختلفة لخلق تجربة متسقة للمستخدم.",
+          "يجب تسجيل جميع الاتصالات لأغراض التحليل والمراجعة.",
+          "يجب أن يدعم النظام تضمين الرسائل الآلية للرد الفوري."
         ],
         "diagrams": [
           {
-            "name": "مخطط النشاط لإدارة حساب المستخدم",
-            "description": "Activity Diagram showing User accessing Profile Page → modifying personal details → system validating and saving → updates reflected in database.",
-            "url": "https://brd-qi0f.onrender.com/static/69a4577e70ae447eb8e717891e758e4b.svg"
-          }
-        ]
-      },
-      {
-        "id": "fr_07",
-        "title": "الصفحة الرئيسية والمفضلات",
-        "description": "يجب أن تعرض الصفحة الرئيسية للنظام الطلبات الجارية، أقرب المطاعم، والمنتجات الرائجة مع إمكانية الوصول السريع إلى المفضلات للسهولة في الطلب لاحقًا.",
-        "priority": "متوسط",
-        "acceptance_criteria": [
-          "تعرض الصفحة الرئيسية الطلبات الجارية والمعلومات عنها.",
-          "إظهار قائمة أقرب المطاعم للمستخدم.",
-          "عرض المنتجات والمطاعم الرائجة استناداً للاختيارات العامة.",
-          "القدرة على إضافة وإزالة المطاعم من قائمة المفضلات."
-        ],
-        "diagrams": [
-          {
-            "name": "مخطط النشاط للصفحة الرئيسية والمفضلات",
-            "description": "Activity Diagram showing Home Page displaying ongoing orders, nearest restaurants → User viewing Trending Products → adding favorites.",
-            "url": "https://brd-qi0f.onrender.com/static/550b6bcea613454986bf8df90e146a74.svg"
-          }
-        ]
-      },
-      {
-        "id": "fr_08",
-        "title": "التوصيات الفورية والتنبيهات",
-        "description": "يجب على النظام إرسال إشعارات فورية للمستخدم للمستجدات حول حالة الطلبات والعروض والتنبيهات المخصصة على أساس الموقع الجغرافي للمستخدمين في التطبيقات المحمولة.",
-        "priority": "متوسط",
-        "acceptance_criteria": [
-          "إرسال إشعارات عند تغير حالة الطلب.",
-          "إرسال عروض مخصصة بناءً على سلوكيات الشراء السابقة.",
-          "تقديم توصيات موقعية للمستخدمين استناداً لموقعهم الجغرافي.",
-          "وجود نصائح إرشادية (Tooltips) في النسخة الويب لتوضيح المهام."
-        ],
-        "diagrams": [
-          {
-            "name": "مخطط النشاط للإشعارات الفورية",
-            "description": "Activity Diagram showing system monitoring Order Status → system triggering notifications → User receiving updates via Mobile App.",
-            "url": ""
-          }
-        ]
-      },
-      {
-        "id": "fr_09",
-        "title": "التعرف على الموقع الجغرافي والخدمات المتنوعة",
-        "description": "يجب أن يتضمن النظام خدمات الموقع الجغرافي للكشف التلقائي عن المطاعم القريبة بناءً على الموقع الجغرافي للمستخدم، بالإضافة إلى خيار تحديد المدينة يدويًا للمستخدمين الذين يفضلون تحديده بأنفسهم.",
-        "priority": "متوسط",
-        "acceptance_criteria": [
-          "النظام يكتشف تلقائيًا المطاعم بناءً على موقع المستخدم الحالي عبر GPS.",
-          "توفر خيار لتحديد المدينة يدويًا للبحث عن المطاعم.",
-          "تحديث تلقائي لقائمة المطاعم عند تغيير الموقع.",
-          "تمكين المستخدم من العثور على خيارات المطاعم المحلية بدقة."
-        ],
-        "diagrams": [
-          {
-            "name": "مخطط الصف لخدمات الموقع الجغرافي",
-            "description": "Class Diagram showing LocationService class with methods (DetectLocation, ManualCitySelection) and interaction with RestaurantList.",
-            "url": "https://brd-qi0f.onrender.com/static/958101df3c4c49c38cd4ca3170881356.svg"
-          }
-        ]
-      },
-      {
-        "id": "fr_10",
-        "title": "دعم اللغات والتوطين",
-        "description": "يجب أن يوفر النظام دعمًا كاملاً للغات الإنجليزية والعربية، مع التأكد من الترجمة وتوطين جميع عناصر الواجهة بشكل دقيق لضمان تفاعل مثالي من المستخدمين.",
-        "priority": "عالي",
-        "acceptance_criteria": [
-          "عرض جميع مكونات الواجهة باللغة المختارة (العربية أو الإنجليزية).",
-          "التأكد من دقة الترجمة وتوطين النصوص.",
-          "دعم جميع النماذج ورسائل النظام باللغتين.",
-          "تبديل سلس بين اللغات حسب تفضيلات المستخدم."
-        ],
-        "diagrams": [
-          {
-            "name": "مخطط تسلسل دعم اللغات",
-            "description": "Sequence Diagram showing User selecting Language → system loading localized UI components → displaying UI in selected language.",
-            "url": ""
+            "name": "مخطط النشاط لإدارة الاتصال",
+            "description": "Activity Diagram showing Incoming Multi-Channel Request → System Opens Preferred Channel → routes to relevant Agent or Automated Response → logs interaction → feedback option provided to user.",
+            "url": "https://brd-qi0f.onrender.com/static/f6775b1cba6541909b80fda96dff6ad9.svg"
           }
         ]
       }
@@ -550,17 +457,17 @@
       {
         "id": "nfr_01",
         "type": "الأداء",
-        "description": "يجب أن يدعم النظام الاتصالات الفورية وربط نظام التعقب عبر GPS فعّالاً."
+        "description": "النظام يجب أن يدعم معالجة الطلبات في الوقت الفعلي بدون تأخير."
       },
       {
         "id": "nfr_02",
         "type": "الأمان",
-        "description": "يجب إدارة بيانات اعتماد المستخدم بشكل آمن وتطبيق ممارسات حديثة لحماية البيانات."
+        "description": "يجب على النظام استخدام الجدران النارية لمنع الوصول غير المصرح به."
       },
       {
         "id": "nfr_03",
-        "type": "سهولة الاستخدام",
-        "description": "يجب أن يوفر النظام واجهة مستخدم سهلة الاستخدام وتدعم اللغات المتعددة."
+        "type": "قابلية الاستخدام",
+        "description": "يجب أن تكون واجهة المستخدم سهلة الاستخدام وتوفر تجربة سلسة للمستخدم."
       }
     ]
   },
@@ -571,106 +478,248 @@
     },
     "items": [
       {
-        "id": "uc_04",
-        "name": "تصفح القوائم والمنتجات",
-        "description": "يقدم النظام للمستخدمين واجهة سهلة الاستخدام لعرض القوائم المرتبة بشكل فئات، مع تفاصيل محددة لكل منتج وتشمل الصورة والوصف. يوفر النظام مزايا التصفية والفرز حسب الاسم، السعر، وغيرها، لإزالة العقبات أمام المستخدمين أثناء بحثهم عن الأطعمة التي يفضلونها. هذا يحسن التجربة الإجمالية للمستخدم ويسهم في زيادة المشتريات.",
+        "id": "uc_01",
+        "name": "إدارة المهام للمستخدم",
+        "description": "يسمح النظام لمسؤولي النظام بتنظيم مهام المستخدمين بما في ذلك التخصيص وإلغاء التخصيص والتعديل. تهدف هذه العملية لضمان تقسيم العمل بفعالية ومتابعة الحالة الحالية للمهام ضمن النظام.",
         "actors": [
-          "المستخدم"
+          "مسؤول النظام"
         ],
         "preconditions": [
-          "النظام متاح للاتصال المستقر بالإنترنت",
-          "المستخدم مسجل الدخول"
+          "النظام نشط",
+          "المستخدمون قد تم تعريفهم في النظام"
         ],
         "steps": [
-          "المستخدم يفتح التطبيق ويختار قسم القوائم.",
-          "النظام يعرض القوائم المتوفرة بتصميم منظم.",
-          "المستخدم يختار فئة معينة للتصفح.",
-          "النظام يعرض المنتجات مع الصور والأوصاف.",
-          "المستخدم يقوم بالتصفية حسب السعر أو التقييم.",
-          "النظام يضبط عرض المنتجات وفقًا للمعايير المختارة.",
-          "المستخدم ينقر على منتج للاطلاع على المزيد من التفاصيل.",
-          "النظام يعرض صفحة المنتج بتفاصيل شاملة.",
-          "المستخدم يقرر إضافة منتج للسلة أو الاستمرار في التصفح.",
-          "النظام يوفر تجربة تصفح بلا نهاية لتسهيل الاستخدام."
+          "مسؤول النظام يفتح قسم إدارة المهام.",
+          "النظام يعرض قائمة المهام الحالية.",
+          "المسؤول يختار المستخدم ويدخل تفاصيل المهمة.",
+          "النظام يتحقق من الصلاحيات ويفعل الإجراء المطلوب.",
+          "النظام يرسل إشعاراً إلى المستخدم بخصوص المهمة.",
+          "المسؤول يؤكد الحفظ وتحديث قاعدة البيانات."
         ],
         "business_rules": [
           {
-            "id": "br_11",
-            "rule": "القوائم يجب أن تكون محدثة دائمًا وفقاً لمتطلبات المطاعم."
+            "id": "br_01",
+            "rule": "يجب أن يكون للمسؤول صلاحيات كاملة على إدارة المهام."
           },
           {
-            "id": "br_12",
-            "rule": "الصور المستخدمة يجب أن تفي بمعايير الجودة."
+            "id": "br_02",
+            "rule": "المهام الجديدة لا يمكن أن تتخطى السعة المحددة لكل مستخدم."
           },
           {
-            "id": "br_13",
-            "rule": "معاملات التصنيف والتصفية يجب أن تعكس معايير المستخدم."
+            "id": "br_03",
+            "rule": "يجب حفظ كل تغيير مع تأكيد من المسؤول."
+          },
+          {
+            "id": "br_04",
+            "rule": "لن يتم حفظ التغييرات إلا بعد التحقق من الصلاحيات."
           }
         ],
         "ui": [
           {
-            "name": "تصميم صفحة القوائم",
-            "description": "UI design for Menu Page: professional ui, modern design with category sections, product listings with images and descriptions, filter and sort options for enhanced user experience.",
-            "url": "https://brd-qi0f.onrender.com/static/d2e0716014ac453ab72fd80679c4949f.png"
+            "name": "شاشة إدارة المهام",
+            "description": "UI design for Task Management Page: professional ui, including task lists, user selection dropdown, assign and revoke buttons, and notifications panel. Must be responsive and styled with a modern material design.",
+            "url": "https://brd-qi0f.onrender.com/static/2fc86179bc7f4f44ae1233bf86d89a7a.png"
           }
         ],
         "diagrams": [
           {
-            "name": "مخطط نشاط تصفح المنتجات",
-            "description": "Activity Diagram showing workflow: User selects menu category → filter options appear → user selects filters → products displayed accordingly → user views product details.",
-            "url": "https://brd-qi0f.onrender.com/static/908fdb8b5b2f4e0db976b2198888cc24.svg"
+            "name": "مخطط نشاط إدارة المهام",
+            "description": "Activity Diagram showing workflow: Admin opens task management → selects task → assigns or revokes → system verifies permissions → updates task status and sends notifications.",
+            "url": "https://brd-qi0f.onrender.com/static/077cc0b4329140b192d9149d87e2d227.svg"
+          }
+        ]
+      },
+      {
+        "id": "uc_02",
+        "name": "فتح تذكرة جديدة",
+        "description": "يجري النظام عملية فتح تذكرة جديدة عند تلقي اتصال جديد أو عبر القنوات الرقمية، وذلك لضمان تسجيل بيانات العميل وتفاصيل الاتصال بشكل كامل ودقيق، مما يتيح للموظفين المقدرة على مراجعة الحالة ومعالجتها بكفاءة.",
+        "actors": [
+          "وكيل الاتصال"
+        ],
+        "preconditions": [
+          "نظام الاتصال التفاعلي يعمل",
+          "قناة التواصل فعالة"
+        ],
+        "steps": [
+          "الوكيل يتلقى اتصالاً جديداً من العميل.",
+          "النظام يعرض معلومات المتصل بناءً على الرقم التعريفي.",
+          "الوكيل يدخل تفاصيل الاتصال ويختار القسم الصحيح.",
+          "النظام ينشئ تذكرة جديدة ويعرضها للوكيل.",
+          "الوكيل يؤكد الحفظ في قاعدة البيانات.",
+          "النظام يرسل إشعاراً بالتذكرة المفتوحة للعميل."
+        ],
+        "business_rules": [
+          {
+            "id": "br_05",
+            "rule": "يجب تسجيل كافة الاتصالات مع تفاصيل كاملة وموثقة."
+          },
+          {
+            "id": "br_06",
+            "rule": "يجب التحقق من هويات العملاء قبل فتح التذكرة."
+          },
+          {
+            "id": "br_07",
+            "rule": "التذاكر المفتوحة يجب أن تحتوي على معلومات أساسية مثل الوقت، القسم، والأولوية."
+          }
+        ],
+        "ui": [
+          {
+            "name": "شاشة فتح التذكرة",
+            "description": "UI design for New Ticket Page: professional ui, includes caller info display, input fields for ticket details, department selection, and save confirmation. Styled with responsive design and material design elements.",
+            "url": "https://brd-qi0f.onrender.com/static/a42db69b8830480e8bbeea60fd0af102.png"
+          }
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط تسلسل فتح التذكرة",
+            "description": "Sequence Diagram showing the interaction between User receiving call, system displaying caller info, ticket creation, confirmation, and notification sent to customer.",
+            "url": "https://brd-qi0f.onrender.com/static/2394a0e825fb43859432529585ae3136.svg"
+          }
+        ]
+      },
+      {
+        "id": "uc_03",
+        "name": "تحديث البيانات البيانية للعميل",
+        "description": "يسمح النظام بتحديث بيانات العملاء بشكل ثنائي الاتجاه بين قاعدة البيانات ونظام التذاكر، مما يضمن أن جميع التعديلات مرئية ويتم مزامنتها بشكل فوري لإمكانية الاستعراض الكامل لسجلات العملاء من بدء الحادثة وحتى إغلاق التذكرة.",
+        "actors": [
+          "وكيل الاتصال",
+          "موظف الدعم الفني"
+        ],
+        "preconditions": [
+          "النظام نشط",
+          "بيانات العميل موجودة في النظام"
+        ],
+        "steps": [
+          "الموظف يدخل تفاصيل العميل الأولية.",
+          "النظام يحقق من البيانات ويعرض السجل الحالي إن وجد.",
+          "الموظف يجري تعديلات ويضغط على زر التحديث.",
+          "النظام يتحقق من صحة التعديلات ويوسع حقل التأكيد.",
+          "النظام يحدث البيانات البيانية في كلا النظامين.",
+          "النظام يظهر رسالة نجاح بإتمام التحديث."
+        ],
+        "business_rules": [
+          {
+            "id": "br_08",
+            "rule": "جميع التعديلات يجب أن تتوافق مع سياسات أمان البيانات."
+          },
+          {
+            "id": "br_09",
+            "rule": "يجب أن تتم المزامنة بشكل تلقائي وفوري لضمان توحيد المعلومات."
+          },
+          {
+            "id": "br_10",
+            "rule": "التحديثات يجب أن تكون مرئية لجميع الأطراف ذات الصلة فور حدوثها."
+          }
+        ],
+        "ui": [
+          {
+            "name": "شاشة تحديث العميل",
+            "description": "UI design for Client Update Page: includes fields for customer details, update button, and synchronization status. Design uses modern style, with emphasis on user-friendliness and clear interaction flow.",
+            "url": "https://brd-qi0f.onrender.com/static/810b6664248a43a09145338ff3c727ab.png"
+          }
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط نشاط تحديث العميل",
+            "description": "Activity Diagram showing process flow: Employee accesses client data → modifies data → system validates and syncs both databases → confirmation displayed.",
+            "url": "https://brd-qi0f.onrender.com/static/a5e8306877cd4b4bbbf06cc181fefcfd.svg"
+          }
+        ]
+      },
+      {
+        "id": "uc_04",
+        "name": "إغلاق التذكرة",
+        "description": "يقوم النظام بعملية إغلاق التذكرة بعد معالجة الطلب، حيث تتطلب هذه العملية من الوكيل التأكد من تنفيذ جميع الخطوات وأن الحل قد تم بنجاح. يتم توثيق جميع الخطوات والتواصل لضمان تقديم تقرير شامل ومفصل عن الحالة.",
+        "actors": [
+          "وكيل الاتصال"
+        ],
+        "preconditions": [
+          "التذكرة مفتوحة",
+          "الحل قد تم تطبيقه"
+        ],
+        "steps": [
+          "الوكيل يفتح صفحة تفاصيل التذكرة المفتوحة.",
+          "النظام يعرض الوضع الحالي للتذكرة وتفاصيل الاتصال.",
+          "الوكيل يتحقق من اكتمال كل الإجراءات.",
+          "الوكيل يحدد وضع الإغلاق ويكتب ملخص التقرير.",
+          "النظام ينهي التذكرة ويرسل تقريراً إلى جميع المساهمين.",
+          "النظام يسجل التذكرة في الأرشيف للتصنيف المستقبلي."
+        ],
+        "business_rules": [
+          {
+            "id": "br_11",
+            "rule": "يجب أن يتم مراجعة جميع مراحل التذكرة قبل الإغلاق."
+          },
+          {
+            "id": "br_12",
+            "rule": "يجب تسجيل جميع المحاولات والاتصالات في سجل التذكرة."
+          },
+          {
+            "id": "br_13",
+            "rule": "التذاكر لا يمكن أن تغلق إلا بواسطة الوكلاء المفوضين باحترام."
+          }
+        ],
+        "ui": [
+          {
+            "name": "شاشة إغلاق التذكرة",
+            "description": "UI design for Ticket Closure Page: comprehensive design including ticket details review, closure options, summary input, and final confirmation. Modern design with structured layout for efficient workflow.",
+            "url": "https://brd-qi0f.onrender.com/static/79785c7d0e1442ada3c7b41862a236de.png"
+          }
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط نشاط إغلاق التذكرة",
+            "description": "Activity Diagram detailing the process of closing a ticket: review → update status → summarize report → system archives and confirms closure.",
+            "url": "https://brd-qi0f.onrender.com/static/f7d15e99ffe64011896e1d58e4871c42.svg"
           }
         ]
       },
       {
         "id": "uc_05",
-        "name": "إدارة الحساب الشخصي",
-        "description": "يسمح النظام للمستخدمين بتحرير تفاصيل حسابهم الشخصي بما في ذلك المعلومات الشخصية والعناوين وكلمات المرور. تعزز هذه الخاصية الأمان والخصوصية عبر تحديث البيانات بشكل منتظم وتعزيزها بكلمات مرور قوية. يوفر النظام تجربة مستخدم مريحة عن طريق تمكين التحكم الشخصي والمرونة في إدارة المعلومات.",
+        "name": "تصميم التقارير ولوحات الأداء",
+        "description": "يسمح النظام للمسؤولين بإعداد وتصميم تقارير الأداء والخدمات المتنوعة لمراقبة جودة الخدمات واتخاذ القرارات المستندة إلى البيانات. يتم دعم مجموعة متنوعة من الأشكال والرسوم البيانية لضمان قراءة بيانات فعالة.",
         "actors": [
-          "المستخدم"
+          "مدير",
+          "مشرف"
         ],
         "preconditions": [
-          "المستخدم لديه حساب مسجل",
-          "المستخدم مسجل الدخول"
+          "النظام يعمل",
+          "البيانات متاحة ومحدثة"
         ],
         "steps": [
-          "المستخدم يدخل إلى إعدادات حسابه.",
-          "النظام يعرض معلومات الحساب الحالية.",
-          "المستخدم يختار تحرير المعلومات الشخصية.",
-          "النظام يتيح تعديلات على الاسم والعنوان وكلمة المرور.",
-          "المستخدم يقوم بالتعديلات اللازمة.",
-          "النظام يتحقق من أي تغيير جديد.",
-          "النظام يطلب التحقق الإضافي لكلمة المرور.",
-          "المستخدم يدخل كلمة المرور الحالية للتحقق.",
-          "النظام يحفظ التعديلات ويؤكد الحفظ.",
-          "النظام يعرض رسالة تأكيد التحديث."
+          "المستخدم يفتح وحدة التقارير.",
+          "النظام يعرض خيارات محددة للمعايير والتحديدات المطلوبة.",
+          "المستخدم يختار المعايير ويحدد النطاق الزمني المطلوب.",
+          "النظام يعالج المعلومات ويجمع البيانات المطلوبة.",
+          "النظام يعرض التقارير في شكل رسومات بيانية وجداول.",
+          "المستخدم يمكنه تخصيص وتصدير التقرير للمراجعة المستقلة."
         ],
         "business_rules": [
           {
             "id": "br_14",
-            "rule": "المعلومات الشخصية يجب أن تكون قابلة للتحديث بشكل منتظم."
+            "rule": "يجب حماية التقارير بخصائص أمان لضمان عدم الوصول غير المصرح به."
           },
           {
             "id": "br_15",
-            "rule": "النظام يجب أن يستخدم بروتوكولات أمنية لحماية البيانات أثناء التحديثات."
+            "rule": "التقارير يجب أن تعكس البيانات الواقعية بوقت فعلي."
           },
           {
             "id": "br_16",
-            "rule": "كلمات المرور يجب أن تحقق متطلبات الأمان الأساسية."
+            "rule": "كل تقرير يجب أن يحمل توقيع زمني فوري لضمان دقة الزمن."
           }
         ],
         "ui": [
           {
-            "name": "تصميم شاشة إدارة الحساب",
-            "description": "Dashboard design for Account Management: includes sections for personal information, address updates, and password changes with a material design for a seamless ux experience.",
-            "url": "https://brd-qi0f.onrender.com/static/39239e09d6ee437e9a293dceb2b17808.png"
+            "name": "شاشة تصميم التقارير",
+            "description": "UI design for Reporting Dashboard: professional and modern design, including interactive chart options, filters, export buttons, and real-time data visualization capabilities.",
+            "url": "https://brd-qi0f.onrender.com/static/ffe8c668a4254d17b4f589a51df82a99.png"
           }
         ],
         "diagrams": [
           {
-            "name": "مخطط نشاط إدارة الحساب",
-            "description": "Activity Diagram showing steps: User logs into account → views current information → selects edit option → updates data → system validates and confirms changes.",
-            "url": "https://brd-qi0f.onrender.com/static/fae7e573d1cb483f8ff9ce7c06936b11.svg"
+            "name": "مخطط تسلسل تصميم التقارير",
+            "description": "Sequence Diagram illustrating the user's interaction for selecting report parameters, generating data, and rendering output in visual format with options to export.",
+            "url": "https://brd-qi0f.onrender.com/static/17c8880cc05944ed938c0c4c9c24cdb8.svg"
           }
         ]
       }
