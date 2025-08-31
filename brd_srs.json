@@ -1,0 +1,679 @@
+{
+  "glossary": {
+    "meta": {
+      "id": "glossary",
+      "name": "Glossary - جدول المصطلحات"
+    },
+    "terms": [
+      {
+        "id": "gl_01",
+        "term": "المستخدم - User",
+        "definition": "شخص يستخدم النظام للبحث عن مطاعم وطلب الطعام."
+      },
+      {
+        "id": "gl_02",
+        "term": "الطلب - Order",
+        "definition": "مجموعة من العناصر التي تم اختيارها للشراء من المطعم."
+      },
+      {
+        "id": "gl_03",
+        "term": "الإشعارات - Notifications",
+        "definition": "رسائل يتم إرسالها للمستخدم حول التحديثات والعروض."
+      },
+      {
+        "id": "gl_04",
+        "term": "التسجيل - Registration",
+        "definition": "عملية إنشاء حساب جديد داخل النظام."
+      },
+      {
+        "id": "gl_05",
+        "term": "التتبع - Tracking",
+        "definition": "آلية لمراقبة سير عملية توصيل الطلب بواسطة GPS."
+      },
+      {
+        "id": "gl_06",
+        "term": "المطعم - Restaurant",
+        "definition": "شريك يقدم قوائم الطعام وينفذ الطلبات للمستخدمين."
+      },
+      {
+        "id": "gl_07",
+        "term": "المنتج - Product",
+        "definition": "عنصر غذائي يمكن للمستخدمين إضافته إلى سلة الطلبات."
+      },
+      {
+        "id": "gl_08",
+        "term": "السلة - Cart",
+        "definition": "قائمة مؤقتة تحتوي على المنتجات التي يرغب المستخدم في شرائها."
+      },
+      {
+        "id": "gl_09",
+        "term": "الصفحة الرئيسية - Home Page",
+        "definition": "واجهة تعرض الطلبات الجارية والمطاعم الشهيرة والعروض."
+      },
+      {
+        "id": "gl_10",
+        "term": "التوصيل - Delivery",
+        "definition": "عملية توصيل الطلبات من المطعم إلى المستخدم."
+      }
+    ]
+  },
+  "introduction": {
+    "meta": {
+      "id": "introduction",
+      "name": "Introduction - المقدمة"
+    },
+    "paragraphs": [
+      "يهدف هذا المشروع إلى تطوير نظام شامل لطلب وتوصيل الطعام عبر الإنترنت، مصمم لتحسين تجربة المستخدم في طلب الطعام من خلال تقديم واجهة استخدام سهلة وميزانية متقدمة.",
+      "النظام يسعى إلى ربط المستخدمين بمجموعة متنوعة من المطاعم، مما يمكنهم من التصفح بسهولة، واختيار، وشراء الوجبات مع خيارات للتوصيل السريع.",
+      "تهدف الرؤية إلى تقديم خدمة طلب طعام مريحة وسلسة للمستخدمين، مما يعزز من سهولة الوصول والاستخدام.",
+      "السياق الأساسي لهذا المشروع هو تعزيز الاتصال بين مستخدمي النظام والمطاعم، مما يوسع نطاق الخيارات المتاحة للجميع.",
+      "يُعد هذا النظام أداة محورية لتحويل ممارسة طلب الطعام إلى تجربة مريحة وسهلة للمستهلك النهائي.",
+      "ستساهم الخاصية الموجهة نحو تعددية اللغات في زيادة الوصول إلى شريحة أوسع من المستخدمين حول العالم.",
+      "المشروع مصمم لتقديم تحديثات وإشعارات في الوقت الفعلي حول حالة الطلبات والعروض الترويجية.",
+      "يمكن للمستخدمين اكتشاف مجموعة من المطاعم والمنتجات بناءً على تفضيلاتهم، مما يوفر تجربة مخصصة تلبي احتياجاتهم الفردية.",
+      "يركز التصميم على تحسين الخدمة وتحقيق رضا العملاء من خلال تقديم خيارات للتوصيل السريع وتحسين تجربة الزبائن بشكل عام.",
+      "ستعزز هذه المنصة من القدرة على تواصل المستخدمين مع المطاعم والشركاء في تقديم خدمة متكاملة.",
+      "نظام التحقق سيمكّن المستخدمين من تسجيل الدخول بسهولة، بالإضافة إلى خيارات استرجاع كلمة المرور لسهولة الاستخدام.",
+      "سيُتيح فرز وتصفية القائمة والأطعمة بناءً على مجموعة متنوعة من المعايير، مما يسمح بخيارات بحث أكثر كفاءة.",
+      "تبرز واجبات إدارة الطلبات بوصفها جزءًا لا يتجزأ من هذا النظام، مما يوفر للمستخدمين متابعة دقيقة وحقيقية للطلبات.",
+      "ستدعم المنصة إمكانية تحديد المطاعم عبر خدمات تحديد الموقع الجغرافي، بالإضافة إلى اختيار المدينة يدويًا.",
+      "يتيح النظام إمكانية تضمين تقنيات متقدمة لمراقبة وتعديل الطلبات لضمان أقصى قدر من الدقة والفعالية.",
+      "سيوفر هذا المشروع ميزة تحرير المعلومات الشخصية للمستخدم، مما يمنح العملاء تحكمًا أكبر في ملفاتهم الشخصية.",
+      "هناك تركيز قوي على توفير تجربة مستخدم سلسة، مما يعزز من تفاعل المستخدمين مع النظام.",
+      "ستمكن المرافق الإضافية المستخدمين من الوصول بسهولة إلى مطاعمهم المفضلة والعروض الجديدة.",
+      "تمثل الإشعارات الفورية عنصرًا محوريًا في النظام، مما يضمن تحديث المستخدمين بمعلومات حيوية.",
+      "يهدف المشروع إلى تحقيق تصور كامل لتجربة استخدام فريدة، مع دمج مختلف العمليات في منصة واحدة."
+    ]
+  },
+  "importance": {
+    "meta": {
+      "id": "importance",
+      "name": "Importance - أهمية المشروع"
+    },
+    "points": [
+      "يساهم المشروع في زيادة كفاءة عملية الطلب والدفع، مما يوفر الوقت والجهد للعملاء والمطاعم.",
+      "يعزز رضا العملاء بفضل واجهة المستخدم السهلة والتجربة السلسة، مما يزيد من ولاء العملاء.",
+      "يتيح للمطاعم فرصة الوصول إلى شريحة أوسع من العملاء وزيادة مبيعاتهم من خلال تقديم عملية طلب بسيطة وسهلة.",
+      "يمكن للمشروع تقليل الأخطاء البشرية في معالجة الطلبات والدفع، مما يزيد من دقة العمليات.",
+      "يقدم تحسينات في سرعة التسليم من خلال خيارات التوصيل السريع، مما يعزز تجربة العملاء الإيجابية.",
+      "يدعم تقديم تنبيهات في الوقت الفعلي للعملاء والمطاعم، مما يساعد في الحفاظ على التواصل الفعّال مع جميع الأطراف.",
+      "يحفز التعاون مع المطاعم المحلية الجديدة والقائمة وتحسين العلاقات بين العملاء والمزودين.",
+      "يوفر الدعم للغات متعددة مما يتيح الوصول إلى قاعدة عملاء متنوعة وزيادة الشمولية.",
+      "يساعد في تحسين التواجد الرقمي للمطاعم من خلال عرض منتجاتهم وخدماتهم بشكل أكثر فاعلية وجاذبية.",
+      "يمكن للمشروع تحسين سمعة المطاعم من خلال تقييمات العملاء والطلبات المتكررة مما يعزز من مرئيتهم في الأسواق."
+    ]
+  },
+  "goals": {
+    "meta": {
+      "id": "goals",
+      "name": "Goals - أهداف المشروع"
+    },
+    "points": [
+      "توفير خدمة طلب طعام سهلة الاستخدام لجميع المستخدمين بحلول نهاية العام.",
+      "إتاحة قائمة متنوعة من المطاعم لزيادة العملاء المسجلين بنسبة 20٪ خلال الستة أشهر المقبلة.",
+      "تحقيق زمن توصيل أقل من 30 دقيقة في 80٪ من الطلبات بحلول العام المقبل.",
+      "تقديم تحديثات فورية للحالة الطلب لزيادة رضا العملاء بنسبة 15٪ خلال السنة الأولى.",
+      "تقديم التطبيق بلغتين، العربية والإنجليزية، في جميع المناطق المستهدفة من الإطلاق.",
+      "زيادة نسبة المستخدمين النشطين إلى 50٪ خلال السنة الأولى من إطلاق النظام.",
+      "تمكين الدفع عبر الإنترنت لجميع المستخدمين وزيادة معاملات الدفع الرقمية بنسبة 30٪ خلال السنة الأولى.",
+      "تطوير نظام تصفية متقدم لتمكين المستخدمين من العثور على المطاعم التي تلبي تفضيلاتهم بنسبة نجاح 95٪.",
+      "تحسين نظام التعرف على الموقع لزيادة دقة التوصيات المكانية بنسبة 10٪ خلال الستة أشهر الأولى.",
+      "زيادة تفاعل المستخدمين مع عروض النظام بنسبة 25٪ من خلال الاستهداف والإشعارات الذكية."
+    ]
+  },
+  "scope": {
+    "meta": {
+      "id": "scope",
+      "name": "Scope - نطاق المشروع"
+    },
+    "included": [
+      "إدارة تسجيل الدخول للمستخدمين واسترجاع كلمات المرور.",
+      "تصفح القوائم والمنتجات مع خيارات التصفية والترتيب.",
+      "استكشاف المطاعم والمنتجات وتقديم تقييمات لها.",
+      "إدارة السلة وعملية الدفع بما في ذلك إدخال العنوان واختيار الدفع.",
+      "إدارة وتتبع الطلبات مع توفير تحديثات فورية للحالة.",
+      "تحديث وتحرير معلومات حساب المستخدم والعناوين وكلمات المرور.",
+      "عرض الصفحة الرئيسية للمطاعم القريبة والمنتجات الشائعة والإعلانات.",
+      "إرسال إشعارات فورية عن حالة الطلب والعروض والتوصيات حسب الموقع.",
+      "دعم اللغتين العربية والإنجليزية في النظام.",
+      "تحديد المطاعم تلقائيًا باستخدام خدمات الموقع GPS أو اختيار المدينة يدويًا."
+    ],
+    "diagrams": [
+      {
+        "description": "Context Diagram showing the system connected with Users, Delivery Personnel, Restaurants, and GPS/Localization Services"
+      }
+    ]
+  },
+  "out_of_scope": {
+    "meta": {
+      "id": "out_of_scope",
+      "name": "Out of Scope - خارج نطاق المشروع"
+    },
+    "excluded": [
+      "إدارة أجهزة المستخدم أو تحديث أنظمة التشغيل الخاصة بهم.",
+      "تقديم خدمة الدعم الفني المباشر عبر الهاتف.",
+      "إدارة العمليات اللوجستية خارج النظام.",
+      "تطوير التطبيقات لنظام تشغيل بخلاف تطبيقات الويب والجوال.",
+      "دعم عمليات الدفع بعملات غير العملة المحلية."
+    ]
+  },
+  "assumptions_constraints": {
+    "meta": {
+      "id": "assumptions_constraints",
+      "name": "Assumptions & Constraints - الافتراضات والقيود"
+    },
+    "assumptions": [
+      "المستخدمون لديهم اتصال دائم بالإنترنت للوصول إلى جميع الميزات.",
+      "النظام سيدعم التطبيق على منصات متعددة لضمان الوصول الواسع.",
+      "المستهلكون سيكون لديهم معرفة باستخدام الأجهزة التكنولوجية بشكل عام.",
+      "المطاعم سوف تقدم قوائم طعام دقيقة ومحدثة.",
+      "المنتجات التي تقدمها المطاعم متوفرة دائمًا وجاهزة للتحضير الفوري.",
+      "الخوادم قادرة على التعامل مع حجم الطلبات الكبير دون تأخير.",
+      "اللغات المدعومة سيتم توفرها بشكل كامل في جميع أجزاء النظام.",
+      "نظام الموقع سيعمل بشكل دقيق في تحديد مواقع المستخدمين.",
+      "المستخدمون سيقومون بتزويد معلومات صحيحة وكاملة لعمليات الدفع.",
+      "المطاعم ستراقب وتحدث تقييماتها وتصنيفاتها بشكل منتظم."
+    ],
+    "constraints": [
+      "يجب أن يعمل النظام بفاعلية مع اتصال إنترنت مستقر.",
+      "أنظمة التوثيق يجب أن تضمن أمان وخصوصية بيانات المستخدم.",
+      "يجب أن تكون واجهة المستخدم بديهية وسهلة الاستخدام بغض النظر عن اللغة المختارة.",
+      "ساعات عمل المطاعم قد تؤثر على توقيتات الطلبات والتسليم.",
+      "النظام يجب أن يكون متوافقًا مع اللوائح المحلية لكل منطقة يتم تقديم الخدمة فيها.",
+      "إضافة وتصحيح اللغات الأخرى قد يتطلب تحديثات مستمرة مع تغييرات المحتوى.",
+      "التحسينات على التسليم تعتمد على التعاون بين شركات التوصيل.",
+      "الجرد الفوري للبضائع يعتمد على بيانات دقيقة مقدمة من المطاعم.",
+      "القدرة على اختصار أوقات التسليم تعتمد على وجود موارد كافية.",
+      "أنظمة الدفع تحتاج إلى التكامل مع منصات الدفع المختلفة لتسهيل العمليات."
+    ]
+  },
+  "current_state": {
+    "meta": {
+      "id": "current_state",
+      "name": "Current State - الوضع الحالي"
+    },
+    "points": [
+      "يتم الطلب من خلال مكالمات هاتفية أو زيارات مباشرة للمطاعم.",
+      "لا توجد واجهة مستخدم موحدة لعرض قوائم المطاعم بشكل مريح.",
+      "المستخدمون يعتمدون على المواقع الخارجية لتقييم المطاعم.",
+      "عدم وجود نظام فعال لتتبع حالة الطلبات في الوقت الحقيقي.",
+      "تحديثات الطلب تعتمد على التواصل الهاتفي مع المطعم.",
+      "التوصيل لا يشمل خيارات سريعة أو مُحسَّنة زمنياً.",
+      "لا وجود لدعم لغوي متعدد ضمن النظام الحالي.",
+      "عدم توفر نظام لإرسال الإشعارات الترويجية أو الإعلانية مباشرة.",
+      "تقييم واختيار المنتجات يعتمد على الكتالوجات الورقية أو النصوص غير المنظمة.",
+      "غياب الدعم للمدفوعات الإلكترونية والاعتماد على الدفع نقداً عند الاستلام."
+    ]
+  },
+  "actors": {
+    "meta": {
+      "id": "actors",
+      "name": "Actors - الأطراف المشاركة"
+    },
+    "rows": [
+      {
+        "id": "ac_01",
+        "role": "المستخدم",
+        "description": "يقوم بتصفح التطبيق، البحث عن المطاعم، وإجراء الطلبات."
+      },
+      {
+        "id": "ac_02",
+        "role": "المسؤول",
+        "description": "يدير النظام، يضيف المطاعم، ويتابع أداء الطلبات."
+      },
+      {
+        "id": "ac_03",
+        "role": "سائق التوصيل",
+        "description": "يستلم الطلبات ويقوم بتوصيلها إلى العملاء."
+      },
+      {
+        "id": "ac_04",
+        "role": "نظام الدفع الإلكتروني",
+        "description": "يتكامل مع النظام لمعالجة عمليات الدفع الإلكتروني."
+      },
+      {
+        "id": "ac_05",
+        "role": "خدمة الإشعارات",
+        "description": "ترسل إشعارات فورية للمستخدمين حول حالة الطلبات والعروض."
+      }
+    ],
+    "diagrams": [
+      {
+        "name": "مخطط حالة استخدام لتسجيل الدخول والتسجيل",
+        "description": "Use Case Diagram showing Actor 'User' interacting with two use cases: 'Register New User' and 'Login'.",
+        "url": "/static/c5077caa54884ed58842e8cb3a18c332.svg"
+      },
+      {
+        "name": "مخطط حالة استخدام لإدارة الطلبات",
+        "description": "Use Case Diagram showing Actor 'Admin' managing 'Order Management' and 'Order Tracking'. Actor 'Delivery Driver' participates in 'Accept Order' and 'Confirm Delivery'.",
+        "url": "/static/26699f6c730b47668d1fdf89a7e756c4.svg"
+      },
+      {
+        "name": "مخطط حالة استخدام لعملية الدفع",
+        "description": "Use Case Diagram showing Actor 'User' initiating 'Make Payment' and Actor 'Payment Gateway' processing 'Transaction' with confirmation status.",
+        "url": "/static/3168ba6f8ab548ad92ccbe6441b10357.svg"
+      },
+      {
+        "name": "مخطط حالة استخدام للإشعارات",
+        "description": "Use Case Diagram showing Actor 'Notification Service' pushing messages such as 'Order Confirmation', 'Status Updates', and 'Promotions' to Actor 'User'.",
+        "url": "/static/4638c3e2f6d548fe97d37f240be6f8ee.svg"
+      },
+      {
+        "name": "مخطط حالة استخدام لتقييم المطاعم",
+        "description": "Use Case Diagram showing Actor 'User' performing 'Rate Restaurant' and 'Write Review'. Actor 'Admin' monitors reviews through 'Review Moderation'.",
+        "url": "/static/eae01ed9f46b4632b04f260ba45d6452.svg"
+      }
+    ]
+  },
+  "dependency_and_integration": {
+    "meta": {
+      "id": "dependency_and_integration",
+      "name": "Dependencies & Integrations - التبعيات والتكامل"
+    },
+    "description": "النظام يعتمد على خوادم الدفع الإلكتروني ويدمج مع خدمات تحديد المواقع الجغرافية ونظام الإشعارات ولغات الترجمة الخارجية.",
+    "diagrams": [
+      {
+        "name": "مخطط المكونات للنظام",
+        "description": "Component Diagram detailing the internal structures of the food ordering system including main components such as Frontend, Backend, and REST API integrators. The Backend interfaces with External Payment Gateway, Localization Service, and Notification Service for seamless operations.",
+        "url": "/static/8a9a1eef306247d7a4e42f0c072e9261.svg"
+      },
+      {
+        "name": "مخطط النشر للبنية التحتية",
+        "description": "Deployment Diagram illustrating the primary nodes involved: Client Mobile Application, Web Hosting Server, Backend API Server, and Localization Server. The Backend API Server interacts with external GPS Services and the Payment Gateway over secured connections.",
+        "url": ""
+      }
+    ]
+  },
+  "architecture": {
+    "meta": {
+      "id": "architecture",
+      "name": "Architecture - هيكلية النظام"
+    },
+    "diagrams": [
+      {
+        "name": "تدفق تسجيل دخول المستخدم",
+        "description": "Flow Chart for User Authentication: Start → Input Credentials (Username and Password) → Submit → Backend API Validates against User Database → Success leads to User Dashboard → Failure returns to Login Screen with Error Notification.",
+        "url": "/static/ceb78e7c862f416e828b4bb5b3916130.svg"
+      },
+      {
+        "name": "تدفق تصفح القائمة",
+        "description": "Flow Chart for Menu Browsing: Start → Fetch Menus from Database → Display Categories and Images → User Applies Filters (Name, Price) → User Selects Item → View Item Details including Description and Rating.",
+        "url": ""
+      },
+      {
+        "name": "تدفق عملية السلة والدفع",
+        "description": "Flow Chart for Cart and Checkout Process: User Adds Items to Cart → View Cart → Modify Quantities → Checkout → Enter Address Details → Select Payment Method → Enter Coupon (optional) → Finalize Order Summary → Submit Order.",
+        "url": "/static/fe1f69edf278465aabed0ccacea9d5f0.svg"
+      },
+      {
+        "name": "إدارة الطلبات",
+        "description": "Flow Chart for Order Management: Start → List User Orders → Select Order for Details → Show Order Status and tracking → Option to Contact Delivery → End with Option to Rate Orders.",
+        "url": "/static/0f9f1bbeeddd46e5a37152945de032a4.svg"
+      },
+      {
+        "name": "تدفق الإشعارات اللحظية",
+        "description": "Flow Chart for Real-Time Notifications: Event Trigger (Order Status Change, New Offer) → Notification Service Activated → Send Push Notification to Mobile App → Web User Views Tooltip → User Acknowledges Notification.",
+        "url": ""
+      },
+      {
+        "name": "تدفق الاستكشاف والتصنيف",
+        "description": "Flow Chart for Restaurant and Product Exploration: Start → Fetch Restaurants from Database → Apply Filters (Category, Fast Delivery, Rating) → Display Restaurant List → User Selects Restaurant to View Menu.",
+        "url": "/static/d7386e91348941439f6fa6605406a7c3.svg"
+      },
+      {
+        "name": "البنية التحتية للتوطين ودعم اللغة",
+        "description": "System Architecture Diagram showing Application interfacing with Localization Service. Display Translation Database managing Arabic and English Content. Illustrate User Interface Layer adjusting Language and Layout accordingly.",
+        "url": ""
+      },
+      {
+        "name": "هيكلية نظام بيانات الموقع",
+        "description": "System Architecture Diagram featuring User Device interacting with GPS Module. Display Backend Server processing GPS Data for Restaurant Detection. Alternative: Manual City Input by User feeds into the System for Location Services.",
+        "url": "/static/f2cb963389974e60873f2ecd2137fc7a.svg"
+      },
+      {
+        "name": "تدفق إدارة حساب المستخدم",
+        "description": "Flow Chart for User Account Management: Start → User Accesses Profile → Edit Information or Change Address or Update Password → Submit Changes → Backend Updates Database → Return Confirmation to User.",
+        "url": "/static/bfa8497c507d4c24996f3ac5d8859730.svg"
+      },
+      {
+        "name": "هيكلية خدمة التوصيل",
+        "description": "System Architecture Diagram showing Integration between User App and Delivery Personnel App through API. Backend manages Orders and Delivery Tracking via GPS. Show Interactive Component allowing Drivers to Contact Users.",
+        "url": "/static/03182a635ce140d08d8d0c16728e35f7.svg"
+      }
+    ]
+  },
+  "functional_requirements": {
+    "meta": {
+      "id": "functional_requirements",
+      "name": "Functional Requirements - المتطلبات الوظيفية"
+    },
+    "items": [
+      {
+        "id": "fr_01",
+        "title": "تسجيل الدخول والتسجيل",
+        "description": "يجب على النظام السماح للمستخدمين بالتسجيل والدخول إلى حساباتهم بأمان. يتضمن ذلك استعادة كلمة المرور عند الحاجة. يتطلب النظام التحقق من صحة بيانات الاعتماد لتوفير درجات الأمان اللازمة.",
+        "priority": "عالي",
+        "acceptance_criteria": [
+          "يمكن للمستخدم تسجيل حساب جديد بإدخال الاسم والبريد الإلكتروني وكلمة المرور.",
+          "يتم إرسال بريد إلكتروني لتفعيل الحساب بعد عملية التسجيل.",
+          "يمكن للمستخدم تسجيل الدخول باستخدام بيانات الاعتماد الصحيحة.",
+          "يمنع تسجيل الدخول بعد إدخال بيانات خاطئة أكثر من ثلاث مرات متتالية.",
+          "يمكن استعادة كلمة المرور باستخدام البريد الإلكتروني المسجل."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط لتسجيل الدخول",
+            "description": "Activity Diagram showing the workflow: User accesses Login Page → enters credentials → system validates → grants access → user can request password recovery.",
+            "url": "/static/ba72c0996bde4c51898cbfcc42890080.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_02",
+        "title": "استعراض القائمة والمنتجات",
+        "description": "يجب أن يتيح النظام للمستخدمين تصفح قائمة الطعام والمنتجات المصنفة حسب الأقسام بوجود صور ووصف مفصل. يجب أن يدعم النظام أيضًا الفلاتر المختلفة للبحث بسهولة عن العناصر.",
+        "priority": "متوسط",
+        "acceptance_criteria": [
+          "يمكن للمستخدم تصفح المنتجات بقوائم مصنفة حسب العناوين والمعروف عنها.",
+          "يدعم النظام الفلترة والتصنيف حسب الاسم والسعر والمعايير الأخرى.",
+          "يجب عرض الصور والوصف لكل منتج عند التصفية والاختيار.",
+          "يتم تحديث القائمة بواسطة النظام بشكل ديناميكي مع دعم التمرير اللامتناهي."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط الصف لقائمة الطعام",
+            "description": "Class Diagram showing MenuItem class with attributes (name, description, image) and methods (Filter, Sort, InfiniteScroll).",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "fr_03",
+        "title": "اكتشاف المطاعم والمنتجات",
+        "description": "يجب أن يتيح النظام للمستخدمين اكتشاف المطاعم والمنتجات من خلال خيارات الفلترة مثل الفئة، التوصيل السريع، التقييم، ومستوى السعر، مع توفير تفاصيل كاملة عن المنتجات وامكانية إضافة المراجعات.",
+        "priority": "عالي",
+        "acceptance_criteria": [
+          "يمكن للمستخدم تصفية المطاعم بواسطة فئة productos وتقييم ومستوى السعر.",
+          "يعرض النظام تفاصيل المنتجات مثل الصور والوصف والتقييم.",
+          "يمكن إضافة المنتجات إلى السلة وتقييمها من قبل المستخدم.",
+          "يدعم النظام عرض شارات وتنبيهات حول المنتج."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط لاكتشاف المطاعم",
+            "description": "Activity Diagram showing Users using Filter Options → system displaying filtered Restaurant List → users selecting a restaurant → system displaying Restaurant Details Page.",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "fr_04",
+        "title": "عملية السلة والدفع",
+        "description": "يجب أن يوفر النظام للمستخدمين القدرة على تعديل الكميات في السلة، تقييم الأسعار، والتوجه لعمليات الدفع بسهولة وسلاسة، والدفع عبر وسائل متعددة، مع دعم إدخال قسائم الخصم.",
+        "priority": "عالي",
+        "acceptance_criteria": [
+          "يمكن للمستخدم إضافة وإزالة وتعديل الكميات في السلة.",
+          "يتم تحديث الأسعار الإجمالية في السلة عند كل تعديل.",
+          "يدعم النظام خيارات دفع متعددة منها النقد، وبطاقات الائتمان.",
+          "يمكن إدخال قسائم الخصم وتحديث الأسعار تلقائياً."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط تسلسل عملية الدفع",
+            "description": "Sequence Diagram showing User adding items to Cart → modifies quantities → views updated pricing → proceeds to Checkout → selects payment method → completes order.",
+            "url": "/static/3bc49ebb71704662ba3c99319072c72b.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_05",
+        "title": "إدارة الطلبات",
+        "description": "يجب على النظام تقديم إمكانية للمستخدمين للوصول إلى تفاصيل الطلبات، تحديث الحالة في الوقت الحقيقي، وتقديم تتبع التوصيل عن طريق الGPS، مع خيار التواصل المباشر مع الشخص المسؤول عن التوصيل.",
+        "priority": "عالي",
+        "acceptance_criteria": [
+          "يمكن للمستخدم متابعة حالة الطلبات من الواجهة الرسومية للتطبيق.",
+          "يتم تحديث حالة الطلب في الوقت الحقيقي.",
+          "يدعم النظام تتبع التوصيل عبر GPS.",
+          "متاح خيار للتواصل مع الشخص المسؤول عن التوصيل مباشرة."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط لإدارة الطلبات",
+            "description": "Activity Diagram showing Order Creation → system updating Order Status → Users tracking via GPS → notification to Users upon status change.",
+            "url": "/static/22a0dc31dcb6449a93f425a200a65d9a.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_06",
+        "title": "إدارة حساب المستخدم",
+        "description": "يجب أن يمكن النظام المستخدمين من إدارة ملفاتهم الشخصية بشكل كامل بما في ذلك تعديل المعلومات الشخصية، تحديث العناوين، وتغيير كلمة المرور بسهولة وسرعة.",
+        "priority": "متوسط",
+        "acceptance_criteria": [
+          "يمكن للمستخدم تحديث المعلومات الشخصية مثل الاسم والبريد الإلكتروني.",
+          "يدعم النظام إضافة وتحديث وعرض العناوين المرتبطة بالحساب.",
+          "القدرة على تغيير كلمة المرور بأمان.",
+          "تظهر التحديثات فورا في واجهة المستخدم بعد الحفظ."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط لإدارة حساب المستخدم",
+            "description": "Activity Diagram showing User accessing Profile Page → modifying personal details → system validating and saving → updates reflected in database.",
+            "url": "/static/69a4577e70ae447eb8e717891e758e4b.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_07",
+        "title": "الصفحة الرئيسية والمفضلات",
+        "description": "يجب أن تعرض الصفحة الرئيسية للنظام الطلبات الجارية، أقرب المطاعم، والمنتجات الرائجة مع إمكانية الوصول السريع إلى المفضلات للسهولة في الطلب لاحقًا.",
+        "priority": "متوسط",
+        "acceptance_criteria": [
+          "تعرض الصفحة الرئيسية الطلبات الجارية والمعلومات عنها.",
+          "إظهار قائمة أقرب المطاعم للمستخدم.",
+          "عرض المنتجات والمطاعم الرائجة استناداً للاختيارات العامة.",
+          "القدرة على إضافة وإزالة المطاعم من قائمة المفضلات."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط للصفحة الرئيسية والمفضلات",
+            "description": "Activity Diagram showing Home Page displaying ongoing orders, nearest restaurants → User viewing Trending Products → adding favorites.",
+            "url": "/static/550b6bcea613454986bf8df90e146a74.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_08",
+        "title": "التوصيات الفورية والتنبيهات",
+        "description": "يجب على النظام إرسال إشعارات فورية للمستخدم للمستجدات حول حالة الطلبات والعروض والتنبيهات المخصصة على أساس الموقع الجغرافي للمستخدمين في التطبيقات المحمولة.",
+        "priority": "متوسط",
+        "acceptance_criteria": [
+          "إرسال إشعارات عند تغير حالة الطلب.",
+          "إرسال عروض مخصصة بناءً على سلوكيات الشراء السابقة.",
+          "تقديم توصيات موقعية للمستخدمين استناداً لموقعهم الجغرافي.",
+          "وجود نصائح إرشادية (Tooltips) في النسخة الويب لتوضيح المهام."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط النشاط للإشعارات الفورية",
+            "description": "Activity Diagram showing system monitoring Order Status → system triggering notifications → User receiving updates via Mobile App.",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "fr_09",
+        "title": "التعرف على الموقع الجغرافي والخدمات المتنوعة",
+        "description": "يجب أن يتضمن النظام خدمات الموقع الجغرافي للكشف التلقائي عن المطاعم القريبة بناءً على الموقع الجغرافي للمستخدم، بالإضافة إلى خيار تحديد المدينة يدويًا للمستخدمين الذين يفضلون تحديده بأنفسهم.",
+        "priority": "متوسط",
+        "acceptance_criteria": [
+          "النظام يكتشف تلقائيًا المطاعم بناءً على موقع المستخدم الحالي عبر GPS.",
+          "توفر خيار لتحديد المدينة يدويًا للبحث عن المطاعم.",
+          "تحديث تلقائي لقائمة المطاعم عند تغيير الموقع.",
+          "تمكين المستخدم من العثور على خيارات المطاعم المحلية بدقة."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط الصف لخدمات الموقع الجغرافي",
+            "description": "Class Diagram showing LocationService class with methods (DetectLocation, ManualCitySelection) and interaction with RestaurantList.",
+            "url": "/static/958101df3c4c49c38cd4ca3170881356.svg"
+          }
+        ]
+      },
+      {
+        "id": "fr_10",
+        "title": "دعم اللغات والتوطين",
+        "description": "يجب أن يوفر النظام دعمًا كاملاً للغات الإنجليزية والعربية، مع التأكد من الترجمة وتوطين جميع عناصر الواجهة بشكل دقيق لضمان تفاعل مثالي من المستخدمين.",
+        "priority": "عالي",
+        "acceptance_criteria": [
+          "عرض جميع مكونات الواجهة باللغة المختارة (العربية أو الإنجليزية).",
+          "التأكد من دقة الترجمة وتوطين النصوص.",
+          "دعم جميع النماذج ورسائل النظام باللغتين.",
+          "تبديل سلس بين اللغات حسب تفضيلات المستخدم."
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط تسلسل دعم اللغات",
+            "description": "Sequence Diagram showing User selecting Language → system loading localized UI components → displaying UI in selected language.",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  "nonfunctional_requirements": {
+    "meta": {
+      "id": "nonfunctional_requirements",
+      "name": "Non-Functional Requirements - المتطلبات غير الوظيفية"
+    },
+    "requirements": [
+      {
+        "id": "nfr_01",
+        "type": "الأداء",
+        "description": "يجب أن يدعم النظام الاتصالات الفورية وربط نظام التعقب عبر GPS فعّالاً."
+      },
+      {
+        "id": "nfr_02",
+        "type": "الأمان",
+        "description": "يجب إدارة بيانات اعتماد المستخدم بشكل آمن وتطبيق ممارسات حديثة لحماية البيانات."
+      },
+      {
+        "id": "nfr_03",
+        "type": "سهولة الاستخدام",
+        "description": "يجب أن يوفر النظام واجهة مستخدم سهلة الاستخدام وتدعم اللغات المتعددة."
+      }
+    ]
+  },
+  "use_cases": {
+    "meta": {
+      "id": "use_cases",
+      "name": "Use Cases - حالات الاستخدام"
+    },
+    "items": [
+      {
+        "id": "uc_04",
+        "name": "تصفح القوائم والمنتجات",
+        "description": "يقدم النظام للمستخدمين واجهة سهلة الاستخدام لعرض القوائم المرتبة بشكل فئات، مع تفاصيل محددة لكل منتج وتشمل الصورة والوصف. يوفر النظام مزايا التصفية والفرز حسب الاسم، السعر، وغيرها، لإزالة العقبات أمام المستخدمين أثناء بحثهم عن الأطعمة التي يفضلونها. هذا يحسن التجربة الإجمالية للمستخدم ويسهم في زيادة المشتريات.",
+        "actors": [
+          "المستخدم"
+        ],
+        "preconditions": [
+          "النظام متاح للاتصال المستقر بالإنترنت",
+          "المستخدم مسجل الدخول"
+        ],
+        "steps": [
+          "المستخدم يفتح التطبيق ويختار قسم القوائم.",
+          "النظام يعرض القوائم المتوفرة بتصميم منظم.",
+          "المستخدم يختار فئة معينة للتصفح.",
+          "النظام يعرض المنتجات مع الصور والأوصاف.",
+          "المستخدم يقوم بالتصفية حسب السعر أو التقييم.",
+          "النظام يضبط عرض المنتجات وفقًا للمعايير المختارة.",
+          "المستخدم ينقر على منتج للاطلاع على المزيد من التفاصيل.",
+          "النظام يعرض صفحة المنتج بتفاصيل شاملة.",
+          "المستخدم يقرر إضافة منتج للسلة أو الاستمرار في التصفح.",
+          "النظام يوفر تجربة تصفح بلا نهاية لتسهيل الاستخدام."
+        ],
+        "business_rules": [
+          {
+            "id": "br_11",
+            "rule": "القوائم يجب أن تكون محدثة دائمًا وفقاً لمتطلبات المطاعم."
+          },
+          {
+            "id": "br_12",
+            "rule": "الصور المستخدمة يجب أن تفي بمعايير الجودة."
+          },
+          {
+            "id": "br_13",
+            "rule": "معاملات التصنيف والتصفية يجب أن تعكس معايير المستخدم."
+          }
+        ],
+        "ui": [
+          {
+            "name": "تصميم صفحة القوائم",
+            "description": "UI design for Menu Page: professional ui, modern design with category sections, product listings with images and descriptions, filter and sort options for enhanced user experience.",
+            "url": "/static/d2e0716014ac453ab72fd80679c4949f.png"
+          }
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط نشاط تصفح المنتجات",
+            "description": "Activity Diagram showing workflow: User selects menu category → filter options appear → user selects filters → products displayed accordingly → user views product details.",
+            "url": "/static/908fdb8b5b2f4e0db976b2198888cc24.svg"
+          }
+        ]
+      },
+      {
+        "id": "uc_05",
+        "name": "إدارة الحساب الشخصي",
+        "description": "يسمح النظام للمستخدمين بتحرير تفاصيل حسابهم الشخصي بما في ذلك المعلومات الشخصية والعناوين وكلمات المرور. تعزز هذه الخاصية الأمان والخصوصية عبر تحديث البيانات بشكل منتظم وتعزيزها بكلمات مرور قوية. يوفر النظام تجربة مستخدم مريحة عن طريق تمكين التحكم الشخصي والمرونة في إدارة المعلومات.",
+        "actors": [
+          "المستخدم"
+        ],
+        "preconditions": [
+          "المستخدم لديه حساب مسجل",
+          "المستخدم مسجل الدخول"
+        ],
+        "steps": [
+          "المستخدم يدخل إلى إعدادات حسابه.",
+          "النظام يعرض معلومات الحساب الحالية.",
+          "المستخدم يختار تحرير المعلومات الشخصية.",
+          "النظام يتيح تعديلات على الاسم والعنوان وكلمة المرور.",
+          "المستخدم يقوم بالتعديلات اللازمة.",
+          "النظام يتحقق من أي تغيير جديد.",
+          "النظام يطلب التحقق الإضافي لكلمة المرور.",
+          "المستخدم يدخل كلمة المرور الحالية للتحقق.",
+          "النظام يحفظ التعديلات ويؤكد الحفظ.",
+          "النظام يعرض رسالة تأكيد التحديث."
+        ],
+        "business_rules": [
+          {
+            "id": "br_14",
+            "rule": "المعلومات الشخصية يجب أن تكون قابلة للتحديث بشكل منتظم."
+          },
+          {
+            "id": "br_15",
+            "rule": "النظام يجب أن يستخدم بروتوكولات أمنية لحماية البيانات أثناء التحديثات."
+          },
+          {
+            "id": "br_16",
+            "rule": "كلمات المرور يجب أن تحقق متطلبات الأمان الأساسية."
+          }
+        ],
+        "ui": [
+          {
+            "name": "تصميم شاشة إدارة الحساب",
+            "description": "Dashboard design for Account Management: includes sections for personal information, address updates, and password changes with a material design for a seamless ux experience.",
+            "url": "/static/39239e09d6ee437e9a293dceb2b17808.png"
+          }
+        ],
+        "diagrams": [
+          {
+            "name": "مخطط نشاط إدارة الحساب",
+            "description": "Activity Diagram showing steps: User logs into account → views current information → selects edit option → updates data → system validates and confirms changes.",
+            "url": "/static/fae7e573d1cb483f8ff9ce7c06936b11.svg"
+          }
+        ]
+      }
+    ]
+  }
+}
