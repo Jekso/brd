@@ -43,7 +43,7 @@ async def full_generate(document_name: str, files: List[UploadFile] = File(...))
     return JSONResponse(content=project_data)
 
 
-@app.get("/srs/{document_name}")
+@app.get("/{document_name}")
 async def get_srs(document_name: str):
     """
     Dummy endpoint:

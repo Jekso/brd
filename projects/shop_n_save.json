@@ -1,0 +1,256 @@
+{
+  "stats": {
+    "revenue": "0",
+    "users": 2,
+    "numberOfOrders": 3
+  },
+  "orders": [
+    {
+      "id": "57",
+      "city": "المعادي",
+      "orderCount": 3,
+      "userCount": 2,
+      "totalValue": "0",
+      "status": "in review",
+      "notes": "",
+      "lastUpdate": "2025/09/16",
+      "avgBasket": 0,
+      "completionRate": 0
+    }
+  ],
+  "orderDetails": {
+    "1": {
+      "orderNumber": "1",
+      "status": "in review",
+      "orderDate": "2025/09/16",
+      "peopleCount": 0,
+      "totalAmount": "0",
+      "customerName": "Eslam Ahmed",
+      "phoneNumber": "+201146544506",
+      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+      "categories": [
+        {
+          "name": "البقالة المنتجات الغذائية",
+          "totalPrice": 0,
+          "items": [
+            {
+              "name": "لبن جهينة خالي الدسم – 1 لتر",
+              "quantity": 2,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+            },
+            {
+              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+              "quantity": 2,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+            }
+          ]
+        },
+        {
+          "name": "الأغذية الطازجة",
+          "totalPrice": 0,
+          "items": [
+            {
+              "name": "مانجو فجر او صدر اليمامه 1ك",
+              "quantity": 2,
+              "unit": "كيلو",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
+            },
+            {
+              "name": "مارين برجر جامبو مستورد 500 جرام",
+              "quantity": 3,
+              "unit": "علبة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://d4donline.com/u/a/23/05/30/9042f7ed47461c40be74aa1b32bcb6dc.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "orderNumber": "2",
+      "status": "in review",
+      "orderDate": "2025/09/16",
+      "peopleCount": 0,
+      "totalAmount": "0",
+      "customerName": "Eslam Ahmed",
+      "phoneNumber": "01097921641",
+      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+      "categories": [
+        {
+          "name": "البقالة المنتجات الغذائية",
+          "totalPrice": 0,
+          "items": [
+            {
+              "name": "لبن جهينة خالي الدسم – 1 لتر",
+              "quantity": 1,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+            },
+            {
+              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+              "quantity": 2,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+            },
+            {
+              "name": "زبادي جهينة سادة",
+              "quantity": 2,
+              "unit": "—",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
+            }
+          ]
+        },
+        {
+          "name": "الأغذية الطازجة",
+          "totalPrice": 0,
+          "items": [
+            {
+              "name": "مانجو فجر او صدر اليمامه 1ك",
+              "quantity": 4,
+              "unit": "كيلو",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "orderNumber": "3",
+      "status": "in review",
+      "orderDate": "2025/09/16",
+      "peopleCount": 0,
+      "totalAmount": "0",
+      "customerName": "Eslam Ahmed",
+      "phoneNumber": "01097921641",
+      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+      "categories": [
+        {
+          "name": "البقالة المنتجات الغذائية",
+          "totalPrice": 0,
+          "items": [
+            {
+              "name": "لبن المراعي خالي الدسم – 1 لتر",
+              "quantity": 2,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h76/h43/30871899799582/307056_main.jpg_200Wx200H"
+            },
+            {
+              "name": "لبن جهينة خالي الدسم – 1 لتر",
+              "quantity": 5,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+            },
+            {
+              "name": "زبادي جهينة سادة",
+              "quantity": 3,
+              "unit": "علبة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
+            },
+            {
+              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+              "quantity": 2,
+              "unit": "زجاجة",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+            },
+            {
+              "name": "سيلا سكر 1ك",
+              "quantity": 5,
+              "unit": "كيس",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://s3.us-west-2.amazonaws.com/com.disco/crawling/items/9f777595-094a-4a21-9580-9d4f50120bfb.jpg"
+            },
+            {
+              "name": "منين عجوه وزن",
+              "quantity": 2,
+              "unit": "كيلو",
+              "unitPrice": 0,
+              "price": 0,
+              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/c7b34f29-7448-4254-84c3-f38a3f98dffb.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "individualOrders": {
+    "57": [
+      {
+        "id": "1",
+        "orderNumber": "1",
+        "customerName": "Eslam Ahmed",
+        "phoneNumber": "+201146544506",
+        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+        "status": "in review",
+        "orderDate": "2025/09/16",
+        "totalAmount": "0",
+        "itemsCount": 4,
+        "notes": "",
+        "priority": "",
+        "stage": "",
+        "clientType": "",
+        "pastOrders": 0,
+        "familyCount": 0
+      },
+      {
+        "id": "2",
+        "orderNumber": "2",
+        "customerName": "Eslam Ahmed",
+        "phoneNumber": "01097921641",
+        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+        "status": "in review",
+        "orderDate": "2025/09/16",
+        "totalAmount": "0",
+        "itemsCount": 4,
+        "notes": "",
+        "priority": "",
+        "stage": "",
+        "clientType": "",
+        "pastOrders": 0,
+        "familyCount": 0
+      },
+      {
+        "id": "3",
+        "orderNumber": "3",
+        "customerName": "Eslam Ahmed",
+        "phoneNumber": "01097921641",
+        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+        "status": "in review",
+        "orderDate": "2025/09/16",
+        "totalAmount": "0",
+        "itemsCount": 6,
+        "notes": "",
+        "priority": "",
+        "stage": "",
+        "clientType": "",
+        "pastOrders": 0,
+        "familyCount": 0
+      }
+    ]
+  }
+}
