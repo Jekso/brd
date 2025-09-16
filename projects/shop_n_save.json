@@ -1,256 +1,664 @@
 {
-  "stats": {
-    "revenue": "0",
-    "users": 2,
-    "numberOfOrders": 3
-  },
-  "orders": [
-    {
-      "id": "57",
-      "city": "المعادي",
-      "orderCount": 3,
-      "userCount": 2,
-      "totalValue": "0",
-      "status": "in review",
-      "notes": "",
-      "lastUpdate": "2025/09/16",
-      "avgBasket": 0,
-      "completionRate": 0
-    }
-  ],
-  "orderDetails": {
-    "1": {
-      "orderNumber": "1",
-      "status": "in review",
-      "orderDate": "2025/09/16",
-      "peopleCount": 0,
-      "totalAmount": "0",
-      "customerName": "Eslam Ahmed",
-      "phoneNumber": "+201146544506",
-      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
-      "categories": [
+    "stats": {
+        "revenue": "0",
+        "users": 3,
+        "numberOfOrders": 5
+    },
+    "orders": [
         {
-          "name": "البقالة المنتجات الغذائية",
-          "totalPrice": 0,
-          "items": [
-            {
-              "name": "لبن جهينة خالي الدسم – 1 لتر",
-              "quantity": 2,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
-            },
-            {
-              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
-              "quantity": 2,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
-            }
-          ]
+            "id": "45",
+            "city": "التجمع الخامس",
+            "orderCount": 2,
+            "userCount": 1,
+            "totalValue": "0",
+            "status": "in review",
+            "notes": "",
+            "lastUpdate": "2025/09/16",
+            "avgBasket": 0,
+            "completionRate": 0
         },
         {
-          "name": "الأغذية الطازجة",
-          "totalPrice": 0,
-          "items": [
-            {
-              "name": "مانجو فجر او صدر اليمامه 1ك",
-              "quantity": 2,
-              "unit": "كيلو",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
-            },
-            {
-              "name": "مارين برجر جامبو مستورد 500 جرام",
-              "quantity": 3,
-              "unit": "علبة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://d4donline.com/u/a/23/05/30/9042f7ed47461c40be74aa1b32bcb6dc.jpg"
-            }
-          ]
+            "id": "57",
+            "city": "المعادي",
+            "orderCount": 3,
+            "userCount": 2,
+            "totalValue": "0",
+            "status": "in review",
+            "notes": "",
+            "lastUpdate": "2025/09/16",
+            "avgBasket": 0,
+            "completionRate": 0
         }
-      ]
-    },
-    "2": {
-      "orderNumber": "2",
-      "status": "in review",
-      "orderDate": "2025/09/16",
-      "peopleCount": 0,
-      "totalAmount": "0",
-      "customerName": "Eslam Ahmed",
-      "phoneNumber": "01097921641",
-      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
-      "categories": [
-        {
-          "name": "البقالة المنتجات الغذائية",
-          "totalPrice": 0,
-          "items": [
-            {
-              "name": "لبن جهينة خالي الدسم – 1 لتر",
-              "quantity": 1,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
-            },
-            {
-              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
-              "quantity": 2,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
-            },
-            {
-              "name": "زبادي جهينة سادة",
-              "quantity": 2,
-              "unit": "—",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
-            }
-          ]
+    ],
+    "orderDetails": {
+        "1": {
+            "orderNumber": "1",
+            "status": "in review",
+            "orderDate": "2025/09/24 00:00",
+            "peopleCount": 0,
+            "totalAmount": "0",
+            "customerName": "Eslam Ahmed",
+            "phoneNumber": "+201146544506",
+            "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+            "categories": [
+                {
+                    "name": "البقالة المنتجات الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "لبن جهينة خالي الدسم – 1 لتر",
+                            "quantity": 2,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+                        },
+                        {
+                            "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+                            "quantity": 2,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+                        }
+                    ]
+                },
+                {
+                    "name": "الأغذية الطازجة",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "مانجو فجر او صدر اليمامه 1ك",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
+                        },
+                        {
+                            "name": "مارين برجر جامبو مستورد 500 جرام",
+                            "quantity": 3,
+                            "unit": "علبة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://d4donline.com/u/a/23/05/30/9042f7ed47461c40be74aa1b32bcb6dc.jpg"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "name": "الأغذية الطازجة",
-          "totalPrice": 0,
-          "items": [
-            {
-              "name": "مانجو فجر او صدر اليمامه 1ك",
-              "quantity": 4,
-              "unit": "كيلو",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
-            }
-          ]
+        "2": {
+            "orderNumber": "2",
+            "status": "in review",
+            "orderDate": "2025/09/18 00:00",
+            "peopleCount": 0,
+            "totalAmount": "0",
+            "customerName": "Eslam Ahmed",
+            "phoneNumber": "01097921641",
+            "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+            "categories": [
+                {
+                    "name": "البقالة المنتجات الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "لبن جهينة خالي الدسم – 1 لتر",
+                            "quantity": 1,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+                        },
+                        {
+                            "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+                            "quantity": 2,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "زبادي جهينة سادة",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
+                        }
+                    ]
+                },
+                {
+                    "name": "الأغذية الطازجة",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "مانجو فجر او صدر اليمامه 1ك",
+                            "quantity": 4,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/eaba5e2d-57e4-48e9-80b0-e4b1ddcc766c.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "orderNumber": "3",
+            "status": "in review",
+            "orderDate": "2025/09/17 00:00",
+            "peopleCount": 0,
+            "totalAmount": "0",
+            "customerName": "Eslam Ahmed",
+            "phoneNumber": "01097921641",
+            "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
+            "categories": [
+                {
+                    "name": "البقالة المنتجات الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "لبن المراعي خالي الدسم – 1 لتر",
+                            "quantity": 2,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h76/h43/30871899799582/307056_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "لبن جهينة خالي الدسم – 1 لتر",
+                            "quantity": 5,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
+                        },
+                        {
+                            "name": "زبادي جهينة سادة",
+                            "quantity": 3,
+                            "unit": "علبة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+                            "quantity": 2,
+                            "unit": "زجاجة",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "سيلا سكر 1ك",
+                            "quantity": 5,
+                            "unit": "كيس",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://s3.us-west-2.amazonaws.com/com.disco/crawling/items/9f777595-094a-4a21-9580-9d4f50120bfb.jpg"
+                        },
+                        {
+                            "name": "منين عجوه وزن",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/c7b34f29-7448-4254-84c3-f38a3f98dffb.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "orderNumber": "4",
+            "status": "in review",
+            "orderDate": "2025/09/24 00:00",
+            "peopleCount": 0,
+            "totalAmount": "0",
+            "customerName": "Maged",
+            "phoneNumber": "01120448745",
+            "address": "171 المحلية الخامسة الدور الثاني شقة 6 التجمع الثالث, التجمع الخامس, القاهرة",
+            "categories": [
+                {
+                    "name": "البقالة المنتجات الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "الفان توفيكس فواكه 100 جرام",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/4db0c557-fc02-41e7-98f4-ac48c94edbf8.jpg"
+                        },
+                        {
+                            "name": "منين عجوه وزن",
+                            "quantity": 4,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/c7b34f29-7448-4254-84c3-f38a3f98dffb.jpg"
+                        },
+                        {
+                            "name": "ريتش باك خبز بيتي بان، 240 جرام",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://spinneys-egypt.com/cache/large/product/36245/jyX53NBAJOzf5yG3Fnm12GSiIQyAhSC7YYdDrLNc.jpg"
+                        },
+                        {
+                            "name": "فول مدمس من هارفست، 400 جم - عبوة من 2",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h5f/hf9/14786809921566/390593_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "لبان مينتوس بيور بالنعناع خالي من السكر 24جم",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h8d/h68/14530948661278/355594_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "تيميز كورن فليكس 1 كيلو،",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.spinneys-egypt.com/media/catalog/product/cache/36b410f085b47d6b5accd0d7fc6177ea/n/9/n99hv9v_4yboplk6eaj1xwhz.jpeg"
+                        },
+                        {
+                            "name": "نسكافية كلاسيك",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://d4donline.com/u/a/22/02/25/14fa9451d2180117b138207b1e2ec2c1.jpg"
+                        },
+                        {
+                            "name": "نعناع رويال- 100 ظرف",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://www.kheirzaman.com/portals/public/storage/products/BL05106.jpg"
+                        },
+                        {
+                            "name": "جبنة كيري (بسطرمة/ لانشون) 1 كجم",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://d4donline.com/u/a/22/02/25/0013f53d047ab8bba7bc42a556cc4587.jpg"
+                        },
+                        {
+                            "name": "كريم كراميل، قطعتين*184 جرام",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://spinneys-egypt.com/vendor/spinneys/assets/images/spinneys photo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "الأغذية الطازجة",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "جزر , 500 جم",
+                            "quantity": 5,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://images.spinneys.net/product/57383/AuWvzov8opPP42bplK7xTgJ5M85atyTmPl6v58Z4.jpg"
+                        },
+                        {
+                            "name": "بطيخ، كيلو",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://spinneys-egypt.com/cache/large/product/7170/yVs5pspFX1U4YmEc2x23v9U9Mp8OwOMydf4S8OV1.jpeg"
+                        },
+                        {
+                            "name": "خيار -",
+                            "quantity": 3,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.seoudisupermarket.com/media/catalog/product/cache/da04281da854ec319aff2207cb4cdbf5/2/0/2000524000000_1.jpg"
+                        },
+                        {
+                            "name": "طماطم، 1 كيلو جرام",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h4d/35140087578654/200Wx200H_377135_main.jpg"
+                        },
+                        {
+                            "name": "دجاجة متبلة تندوري 1 كجم",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/47683722-e2a0-4651-ac62-b0f0d908c016.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "البقالة المنتجات غير الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "معطر جو فريدا ايرماتيك عطور عربيه ،  250 مل",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.spinneys-egypt.com/media/catalog/product/cache/36b410f085b47d6b5accd0d7fc6177ea/3/8/383374_2.jpg"
+                        },
+                        {
+                            "name": "شنطة يد وتر بروف شفافة لحمل وتنظيم متعلقات الأطفال والميكب متعددة الاستخدامات",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://www.green3ataba.com/web/image/product.template/1371/image_256/%D8%B4%D9%86%D8%B7%D8%A9%20%D9%8A%D8%AF%20%D9%88%D8%AA%D8%B1%20%D8%A8%D8%B1%D9%88%D9%81%20%D8%B4%D9%81%D8%A7%D9%81%D8%A9%20%D9%84%D8%AD%D9%85%D9%84%20%D9%88%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D9%85%D8%AA%D8%B9%D9%84%D9%82%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%A8%20%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A7%D8%AA?unique=9745280"
+                        },
+                        {
+                            "name": "حفاظات مولفيكس للأطفال حديثي الولادة - مقاس 1 - 64 حفاظة",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.hyperone.com.eg/media/catalog/product/cache/1ca275941aea0ae98b372dcb44b7c67a/i/t/item_xxl_10807849_eef99d1524db8-removebg-preview.png"
+                        },
+                        {
+                            "name": "ماكينة حلاقة جيليت سكين جارد، 1 شفرة 1 قطعة",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/hba/hce/12100903534622/520994_main.jpg_200Wx200H"
+                        }
+                    ]
+                },
+                {
+                    "name": "الأجهزة المنزلية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "فلتر مياة تانك برو",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://www.filloffer.com/storage/resized_ahr0chm6ly9hc2hpywutynvja2v0lnmzlmv1lxdlc3qtmy5hbwf6b25hd3muy29tl3byb2r1y3rzl3zld24xqth2r1rwt0tzzxdtrupnt1n1r0jpbhpgeehdr1zwm291vg4uanbn.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
+            "orderNumber": "5",
+            "status": "in review",
+            "orderDate": "2025/09/27 00:00",
+            "peopleCount": 0,
+            "totalAmount": "0",
+            "customerName": "Maged",
+            "phoneNumber": "01120448745",
+            "address": "171 المحلية الخامسة الدور الثاني شقة 6 التجمع الثالث, التجمع الخامس, القاهرة",
+            "categories": [
+                {
+                    "name": "الأغذية الطازجة",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "خيار -",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.seoudisupermarket.com/media/catalog/product/cache/da04281da854ec319aff2207cb4cdbf5/2/0/2000524000000_1.jpg"
+                        },
+                        {
+                            "name": "طماطم، 1 كيلو جرام",
+                            "quantity": 2,
+                            "unit": "كيلو",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h4d/35140087578654/200Wx200H_377135_main.jpg"
+                        },
+                        {
+                            "name": "تمري شرائح فيليه متبله 1 كجم",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://s3.us-west-2.amazonaws.com/com.disco/crawling/items/bdb043e8-50f0-409f-86fa-f5463552ebf2.jpg_480Wx480H"
+                        }
+                    ]
+                },
+                {
+                    "name": "البقالة المنتجات غير الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "معطر جو فريدا ايرماتيك عطور عربيه ،  250 مل",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://mcprod.spinneys-egypt.com/media/catalog/product/cache/36b410f085b47d6b5accd0d7fc6177ea/3/8/383374_2.jpg"
+                        },
+                        {
+                            "name": "حفاضات اطفال مولفيكس جامبو وسط -ماكسي 58قطعه",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/8687192e-3af1-4b41-b6f6-ea94ad741960.jpg"
+                        },
+                        {
+                            "name": "بلسم مينك بزيت الزيتون وزيت اللوز والصبار - 400مل",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/hdf/hfa/15633112072222/559117_main.jpg_200Wx200H"
+                        }
+                    ]
+                },
+                {
+                    "name": "البقالة المنتجات الغذائية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "ريتش باك خبز بيتي بان، 240 جرام",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://spinneys-egypt.com/cache/large/product/36245/jyX53NBAJOzf5yG3Fnm12GSiIQyAhSC7YYdDrLNc.jpg"
+                        },
+                        {
+                            "name": "فول مدمس من هارفست، 400 جم - عبوة من 2",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h5f/hf9/14786809921566/390593_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "منتوس بالفواكه 100 جم كيس",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "http://amart.com.eg/images/thumbs/0012361_80867234.jpeg"
+                        },
+                        {
+                            "name": "كورن فليكس من تيميز - 120 جرام",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/hd7/h32/16221870293022/567615_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "جبنة كيري (بسطرمة/ لانشون) 1 كجم",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://d4donline.com/u/a/22/02/25/0013f53d047ab8bba7bc42a556cc4587.jpg"
+                        },
+                        {
+                            "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
+                        },
+                        {
+                            "name": "لبن جهينه 1لتر",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/7a8e582e-e9e0-4881-b63f-65228b9bbac4.png"
+                        },
+                        {
+                            "name": "لبن المراعي خالي الدسم - 1 لتر",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://www.filloffer.com/storage/resized_ahr0chm6ly9hc2hpywutynvja2v0lnmzlmv1lxdlc3qtmy5hbwf6b25hd3muy29tl3byb2r1y3rzlzqwotetzxgtmc5qcgc=.jpg"
+                        },
+                        {
+                            "name": "زبادي جهينة سادة",
+                            "quantity": 2,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
+                        }
+                    ]
+                },
+                {
+                    "name": "الأجهزة المنزلية",
+                    "totalPrice": 0,
+                    "items": [
+                        {
+                            "name": "فلتر مياة تانك برو",
+                            "quantity": 1,
+                            "unit": "—",
+                            "unitPrice": 0,
+                            "price": 0,
+                            "image": "https://www.filloffer.com/storage/resized_ahr0chm6ly9hc2hpywutynvja2v0lnmzlmv1lxdlc3qtmy5hbwf6b25hd3muy29tl3byb2r1y3rzl3zld24xqth2r1rwt0tzzxdtrupnt1n1r0jpbhpgeehdr1zwm291vg4uanbn.jpg"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     },
-    "3": {
-      "orderNumber": "3",
-      "status": "in review",
-      "orderDate": "2025/09/16",
-      "peopleCount": 0,
-      "totalAmount": "0",
-      "customerName": "Eslam Ahmed",
-      "phoneNumber": "01097921641",
-      "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم, المعادي, القاهرة",
-      "categories": [
-        {
-          "name": "البقالة المنتجات الغذائية",
-          "totalPrice": 0,
-          "items": [
+    "individualOrders": {
+        "45": [
             {
-              "name": "لبن المراعي خالي الدسم – 1 لتر",
-              "quantity": 2,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h76/h43/30871899799582/307056_main.jpg_200Wx200H"
+                "id": "4",
+                "orderNumber": "4",
+                "customerName": "Maged",
+                "phoneNumber": "01120448745",
+                "address": "171 المحلية الخامسة الدور الثاني شقة 6 التجمع الثالث",
+                "status": "in review",
+                "orderDate": "2025/09/24 00:00",
+                "totalAmount": "0",
+                "itemsCount": 20,
+                "notes": "",
+                "priority": "",
+                "stage": "",
+                "clientType": "",
+                "pastOrders": 0,
+                "familyCount": 0
             },
             {
-              "name": "لبن جهينة خالي الدسم – 1 لتر",
-              "quantity": 5,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://i1.wp.com/abusamra.net/wp-content/uploads/2020/04/%D8%AC%D9%87%D9%8A%D9%86%D9%87-%D8%AE%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D8%B3%D9%85.jpg?fit=600%2C600&ssl=1"
-            },
-            {
-              "name": "زبادي جهينة سادة",
-              "quantity": 3,
-              "unit": "علبة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h52/h02/10066420170782/210181_main.jpg_200Wx200H"
-            },
-            {
-              "name": "أبو عوف عسل بجوز عين الجمل - 250جم",
-              "quantity": 2,
-              "unit": "زجاجة",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h9c/h55/27008412287006/485777_main.jpg_200Wx200H"
-            },
-            {
-              "name": "سيلا سكر 1ك",
-              "quantity": 5,
-              "unit": "كيس",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://s3.us-west-2.amazonaws.com/com.disco/crawling/items/9f777595-094a-4a21-9580-9d4f50120bfb.jpg"
-            },
-            {
-              "name": "منين عجوه وزن",
-              "quantity": 2,
-              "unit": "كيلو",
-              "unitPrice": 0,
-              "price": 0,
-              "image": "https://discimagelabel.s3.us-east-2.amazonaws.com/common/c7b34f29-7448-4254-84c3-f38a3f98dffb.jpg"
+                "id": "5",
+                "orderNumber": "5",
+                "customerName": "Maged",
+                "phoneNumber": "01120448745",
+                "address": "171 المحلية الخامسة الدور الثاني شقة 6 التجمع الثالث",
+                "status": "in review",
+                "orderDate": "2025/09/27 00:00",
+                "totalAmount": "0",
+                "itemsCount": 16,
+                "notes": "",
+                "priority": "",
+                "stage": "",
+                "clientType": "",
+                "pastOrders": 0,
+                "familyCount": 0
             }
-          ]
-        }
-      ]
+        ],
+        "57": [
+            {
+                "id": "1",
+                "orderNumber": "1",
+                "customerName": "Eslam Ahmed",
+                "phoneNumber": "+201146544506",
+                "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+                "status": "in review",
+                "orderDate": "2025/09/24 00:00",
+                "totalAmount": "0",
+                "itemsCount": 4,
+                "notes": "",
+                "priority": "",
+                "stage": "",
+                "clientType": "",
+                "pastOrders": 0,
+                "familyCount": 0
+            },
+            {
+                "id": "2",
+                "orderNumber": "2",
+                "customerName": "Eslam Ahmed",
+                "phoneNumber": "01097921641",
+                "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+                "status": "in review",
+                "orderDate": "2025/09/18 00:00",
+                "totalAmount": "0",
+                "itemsCount": 4,
+                "notes": "",
+                "priority": "",
+                "stage": "",
+                "clientType": "",
+                "pastOrders": 0,
+                "familyCount": 0
+            },
+            {
+                "id": "3",
+                "orderNumber": "3",
+                "customerName": "Eslam Ahmed",
+                "phoneNumber": "01097921641",
+                "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
+                "status": "in review",
+                "orderDate": "2025/09/17 00:00",
+                "totalAmount": "0",
+                "itemsCount": 6,
+                "notes": "",
+                "priority": "",
+                "stage": "",
+                "clientType": "",
+                "pastOrders": 0,
+                "familyCount": 0
+            }
+        ]
     }
-  },
-  "individualOrders": {
-    "57": [
-      {
-        "id": "1",
-        "orderNumber": "1",
-        "customerName": "Eslam Ahmed",
-        "phoneNumber": "+201146544506",
-        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
-        "status": "in review",
-        "orderDate": "2025/09/16",
-        "totalAmount": "0",
-        "itemsCount": 4,
-        "notes": "",
-        "priority": "",
-        "stage": "",
-        "clientType": "",
-        "pastOrders": 0,
-        "familyCount": 0
-      },
-      {
-        "id": "2",
-        "orderNumber": "2",
-        "customerName": "Eslam Ahmed",
-        "phoneNumber": "01097921641",
-        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
-        "status": "in review",
-        "orderDate": "2025/09/16",
-        "totalAmount": "0",
-        "itemsCount": 4,
-        "notes": "",
-        "priority": "",
-        "stage": "",
-        "clientType": "",
-        "pastOrders": 0,
-        "familyCount": 0
-      },
-      {
-        "id": "3",
-        "orderNumber": "3",
-        "customerName": "Eslam Ahmed",
-        "phoneNumber": "01097921641",
-        "address": "38 شارع مؤسسة النور الزيتون الغربية خلف فتح الله ماركت ترعة الجبل الدور الاول شقة 2 الي في وش السلم",
-        "status": "in review",
-        "orderDate": "2025/09/16",
-        "totalAmount": "0",
-        "itemsCount": 6,
-        "notes": "",
-        "priority": "",
-        "stage": "",
-        "clientType": "",
-        "pastOrders": 0,
-        "familyCount": 0
-      }
-    ]
-  }
 }
